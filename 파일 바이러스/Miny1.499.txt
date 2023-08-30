@@ -1,0 +1,26 @@
+Miny1.499
+
+제작지    : 국산
+국내 발견 : 1997년09월 김홍렬
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+메시지 출력
+
+내용      : 
+
+기존의 미니1 바이러스에 암호 기능을 추가한 변형 바이러스로 감염 파일이 실행되면 현재 디렉토리 및 상위 디렉토리에 있는 COM, EXE 파일을 한 번에 3개까지 감염시킨다. 
+
+3번째 파일에 감염된 후 감염 파일의 수가 15개 미만이면 "Abnormal Program Termination"라는 에러 메시지를 출력한 후 종료된다. 하지만 감염 파일 수가 15개 이상이면 다음과 같은 메시지를 출력하고 해당 프로그램이 실행 종료된다.
+
+"*HELLFIRE VIRUS*
+  This file has a hellfire VIRUS!
+  WARNING! WARNING! WARNING!
+  Bomb..BOmb..BOMb..BOMB! Good lock! Ha!Ha!
+  Made by HkTeam
+  Thank you KOV and CVC"
+

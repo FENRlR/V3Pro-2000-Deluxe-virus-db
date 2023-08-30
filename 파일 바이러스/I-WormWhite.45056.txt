@@ -1,0 +1,48 @@
+I-Worm/White.45056
+
+다른 이름 : I-Worm/Win32.White.45056
+제작지    : 국산
+국내 발견 : 2000년02월
+종류      : 파일
+
+감염 증상 : 
+
+비주얼 베이식으로 작성되어 관련 파일이 없으면 실행되지 않으며, AUTOEXEC.BAT 파일을 변경시켜 하드디스크를 포맷한다.
+
+내용      : 
+
+I-Worm/White.45056은 한국산 웜으로 2000년 2월 발견되었다. 인터넷 자료실에 "CD-ROM을 40배속으로"라는 제목으로 등록되었으며 이 웜을 실행하면 C:\WINDOWS\SYSTEM 폴더에 RUNDLL64.EXE 파일(45056 바이트) 이 생성되고 레지스트리를 변경해 윈도우가 
+부팅하면 항상 실행되도록 한다.
+
+원형의 I-Worm/White와 대부분 증상이 유사하나, 원형의 경우 첨부 파일이 SUNSHINE.EXE 로 바뀌고 매월 31일 AUTOEXEC.BAT 파일을 변경하는데 반해, 변형은 임의로 AUTOEXEC.BAT 파일을 하드디스크 포맷하는 파일로 변경해 다음 부팅 때 하드디스크를 포맷하게 
+한다.
+
+내부에 다음과 같은 문자열을 포함하고 있다.
+
+"Who am I? Worm?"
+"c:\nhkr.wrm"
+"It's happy to ^ day[31].."
+"I-WORM/WHITE???"
+"c:\autoexec.bat"
+"I-WORM/White2k.B"
+"Need for VB6.0 DLL File."
+"But I have VB6KO.DLL^^"
+"Hm...^^"
+"* Create by NHKR _ Need for VB DLL File #6.0"
+"It's happy to ^day[31].."
+"I-WORM/WHITE???"
+"WhiteBZ.EXE"
+"Need for Install File... --;;"
+"WhiteB"
+"Look the WHITE^^B [Happy Birthday~!] 
+This is WHITE Day.. Run FILE ^^"
+"Sunshine.exe"
+"Comments loader32/white.B for yourlife...,"
+"CompanyName NHKR"
+"LegalCopyght NHKR"
+"ProductName I-WORM/WHITE.B It's MSG : "
+"FileVersion 1.02"
+"ProductVersion 1.02"
+"InternalName WhiteB"
+"OriginalFilename WhiteB.EXE"
+

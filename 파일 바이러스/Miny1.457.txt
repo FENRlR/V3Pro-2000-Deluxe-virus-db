@@ -1,0 +1,24 @@
+Miny1.457
+
+제작지    : 국산
+국내 발견 : 1998년02월 강성모
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COMMAND.COM, COM
+
+감염 증상 : 
+
+겹쳐 쓰기로 인한 파일 파괴
+
+내용      : 
+
+미니1.376 바이러스의 변형으로 바이러스 몸체를 암호화하는 기능이 추가되었으며, 감염된 후 다음과 같은 메시지를 출력한다.
+
+"Program too big to fit in memory"
+
+감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"SVS/COREA Mode by MOV(Master of Virus)
+ [IMF Virus] Ver.B (Send the bank gold)"
+

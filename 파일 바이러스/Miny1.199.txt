@@ -1,0 +1,20 @@
+Miny1.199
+
+제작지    : 국산
+국내 발견 : 1997년06월
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COMMAND.COM, COM
+
+감염 증상 : 
+
+메시지 출력
+
+내용      : 
+
+기존의 미니1 바이러스의 메시지 부분만 수정한 것으로 읽기전용속성 파일은 감염되지 않는다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"Calz Viructive first Virus Version! (C) copyright 1997 by Viructive
+ V I R U C T I V E ! ! 1 9 9 7 ! F I G H T I N G D R . A H N !"
+

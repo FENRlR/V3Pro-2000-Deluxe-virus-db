@@ -1,0 +1,35 @@
+I-Worm/ExploreZip
+
+다른 이름 : I-Worm/ZippedFiles, Worm:ExploreZIP
+제작지    : 외산 1999년06월
+국내 발견 : 1999년06월
+종류      : 파일
+기억 장소 : 상주형
+
+감염 증상 : 
+
+특정 확장자의 파일 크기를 0 바이트로 만듦.
+
+내용      : 
+
+I-Worm/ExploreZIP 웜은 1999년 6월초 발견되었으며, 우리나라에서도 같은 달에 발견되었다. Worm:ExploreZIP 등으로 불리기도 한다.
+
+이 웜은 마이크로소프트의 Outlook과 Outlook Express 등을 이용하는데 감염된 사람이 받은 메일에 ZIPPED_FILES.EXE(파일 크기 210432 바이트)라는 웜 프로그램을 첨부시켜 아래와 같은 내용으로 자동으로 다른 사람들에게 답장한다.
+
+"Hi [받는사람]!
+ I received your email and I shall send you a reply ASAP.
+ Till then, take a look at the attached zipped docs.
+ bye"
+
+그런데 사용자가 첨부된 ZIPPED_FILES.EXE를 실행하면 화면엔 올바른 ZIP 파일이 아니라는 에러 메시지가 출력되어 사용자를 속인다. 이후 윈도우 폴더의 _setup.exe 파일이 생기거나 윈도우 SYSTEM 폴더(보통 C:\WINDOWS\SYSTEM)에 EXPLORE.EXE 라는 파일이 
+생성된다. 아울러 WIN.INI 파일을 수정하여 윈도우가 시작될 때 웜 프로그램도 함께 실행되도록 run 명령을 수정한다.
+
+감염된 후 특징적인 증상은 웜 프로그램 실행 후 파일 확장자가 DOC, XLS, PPT, ASM, H, C, CPP 인 파일 크기를 0 바이트로 만든다. 
+
+또한, 네트워크 환경에서 윈도우 폴더에 읽기/쓰기 권한이 부여된 시스템도 감염되며, 윈도우 NT 시스템도 동일한 문제가 발생한다.
+
+이 프로그램을 수동으로 제거하기 위해서는 윈도우의 SYSTEM 폴더에 있는 EXPLORE.EXE 파일이나(단, C:\WINDOWS\에 있는 EXPLORE.EXE 파일은 정상 파일이므로 삭제하면 안됨)를 삭제한 후 WIN.INI에서 아래 내용을 제거한다.
+
+run=_setup.exe 
+run=c:\windows\system\explore.exe 
+

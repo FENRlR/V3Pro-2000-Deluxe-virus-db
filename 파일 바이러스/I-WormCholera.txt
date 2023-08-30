@@ -1,0 +1,28 @@
+I-Worm/Cholera
+
+다른 이름 : Win95/Simbiosis
+종류      : 파일
+
+내용      : 
+
+I-Worm/Cholera은 외국산 웜 프로그램으로 1999년 9월초 발견되었다. 이 웜 프로그램은 스페인 바이러스 제작그룹인 29A의 멤버인 Griyo가 제작했다. Griyo는 Cricri, Win95/HPS,Win95/Marburg 등의 바이러스도 제작했었다.
+ 
+I-Worm/Happy99나 I-Worm/ExploreZip 등과 유사한 웜 프로그램으로 웜 프로그램을 포함하는 메일을 사람들에게 보낸다. 첨부된 파일이름은 SETUP.EXE(49187 바이트)로 내용은 ':)' 뿐이다. 메일을 받은 사용자가 첨부된 SETUP.EXE를 실행하면 
+ 
+"Cannot open file: it does not appear to be a valid archive.
+ If you downloaded this file, try downloading the file again."
+
+와 같은 메시지를 출력해 마치 프로그램에 이상이 있는 것처럼 위장한다.
+ 
+웜 프로그램은 이미 Windows 폴더의 RPCSRV.EXE 파일을 생성하고 WIN.INI의 [windows] 섹션의 'RUN='줄에 rpcsrv.exe가 추가시켜 다음 부팅때부터 웜 프로그램이 자동으로 실행된다. 'Ctrl+Alt+Delete' 키를 눌렀을 때 나오는 프로그램종료 창에서는 상주해 있는 웜 
+프로그램을 볼 수 없다.
+ 
+이 웜 프로그램은 자체적으로 메일클라이언트를 사용해 사용자의 애플리케이션에 의존하지 않고 다른 사람들에게 메일을 보낼 수 있다. 즉, W97M/Melissa 바이러스와 달리 Outlook등이 설치되어 있지 않아도 인터넷만 연결되었다면 다른 사람들에게 웜 프로그램을 메일로 보낼 
+수 있다.
+ 
+이 웜은 또한 Win32/CTX라는 바이러스도 포함하고 있다. 사용자가 SETUP.EXE를 실행하면 웜과 CTX 바이러스이 동시에 감염된다. CTX 바이러스는 비상주형 바이러스로 별도의 바이러스로 다른 파일을 감염시킨다.
+ 
+다음과 같은 문자열이 암호화되어 저장되어 있다.
+ 
+"CH0LERA - Bacterium BioCoded by GriYo / 29A"
+

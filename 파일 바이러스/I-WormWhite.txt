@@ -1,0 +1,44 @@
+I-Worm/White
+
+제작지    : 국산
+국내 발견 : 2000년02월
+종류      : 파일
+
+감염 증상 : 
+
+비주얼 베이식으로 작성되어 MSVBVM60.DLL 파일이 없으면 실행되지 않으며, 매달 31일 AUTOEXEC.BAT 파일을 변경시켜 하드 디스크를 포맷한다.
+
+내용      : 
+
+I-Worm/White는 한국산 웜으로 2000년 2월 발견되었다. 한국에서 최초로 제작된 인터넷 웜으로 Email 첨부 파일로 자신을 전송하는 특징을 가진다. 이 웜 프로그램은 2000년 1월 30일 인터넷 자료실에 "다운로드 속도를 약125% 올려줍니다.. 설명을 꼭!!^^" "윈98 A+ 
+Version입니다^^ 설명을 보세여^^" 등의 제목으로 올라온 DnSpdUp.exe와 Win98ap.exe 파일에서 처음 발견되었다.
+
+웜을 실행하며 "The language DLL 'vb6ko.dll' could not be found"와 같은 메시지를 출력하며 프로그램이 종료된다. 하지만, 이미 C:\WINDOWS 폴더에 RUNDLL64.EXE가 생성되고 아웃룩으로 사용자들에게 "Happy to WHITE(FILEz)..."란 제목으로 "Happy for ever... to run 
+FILE * ^^ *"의 내용으로 "yourlife.exe" (40960 바이트)라는 첨부파일을 보낸다. 단, 이 바이러스는 비주얼 베이식으로 작성돼 MSVBVM60.DLL 파일이 시스템에 없으면 실행되지 않는다.
+
+특징적인 증상은 AUTOEXEC.BAT 파일을 변경시켜 다음 부팅 때 하드디스크를 포맷하는 것이다. 
+
+다음과 같은 문자열을 포함하고 있다.
+
+"I-WORM/White2k
+It's LV_LOW's upgrade version.
+But.. This worm's Level is LOW...1985xx31
+For high level~!^^
+[Korea] - KING!
+[Japax]&[USx]...Fuck!!!"
+
+"Create by NHKR _ Need for VB DLL File #6.0"
+
+"c:\nhkr.wrm It's happy to ^ day [31]..
+I-WORM/WHITE???"
+
+"Comments rundll64/white for yourlife..., Company Name NHKR"
+"Legal Copyright NHKR"
+"ProductName I-Worm/WHITE? I worm ?"
+"It's very poor... - - ;;"
+"For United KOREA~! for FREE...."
+"Hate MS, and USA...(I like English)^^, FileVersion 1.01"
+"ProductVersion 1.01"
+"InternalName white"
+"OriginalFilename white.exe"
+

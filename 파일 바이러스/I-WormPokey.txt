@@ -1,0 +1,36 @@
+I-Worm/Pokey
+
+다른 이름 : W32.Pokey.Worm, TROJ_POKEY.A
+제작지    : 외산 2000년06월
+종류      : 파일
+
+감염 증상 : 
+
+autoexec.bat 파일을 변경해 윈도우 폴더를 삭제한다.
+
+내용      : 
+
+I-Worm/Pokey는 W32.Pokey.Worm, TROJ_POKEY.A 등으로 불리는 웜으로 2000년 6월에 처음 발견되었다. 남미쪽에서 제작된 것으로 추정되며, 국내에는 아직까지 감염 사례가 보고되지 않았다. 감염과 동시에 하드디스크 파일을 삭제하는 증상 때문에 널리 퍼질 가능성은 
+적다.
+
+이 웜은 E-mail로 퍼지며 메일의 제목과 내용은 다음과 같다.
+
+제목 : Pikachu Pokemon
+내용 : Great Friend!
+       Pikachu from Pokemon Theme have some friendly words
+       to say.
+       Visit Pikachu at http://www.pikachu.com
+       See you.
+첨부파일 : PIKACHUPOKEMON.EXE ( 32768 바이트 )
+
+첨부된 파일을 실행하면 다음과 같은 메시지와 함께 피카추 그림을 출력한다. 단, Visual Basic으로 작성되어 MSVBVM60.DLL 파일이 실행시 필요하다.
+
+'Between millions of people
+ around the world i found you.
+ Don't forget to remember this day
+ every time MY FRIEND!'
+
+이후 Outlook 주소록에 있는 사람들에게 웜이 첨부된 메일을 보낸다.
+
+특징적인 증상은 AUTOEXEC.BAT를 변경해 C:\Windows 폴더와 C:\Windows\System 폴더의 파일을 삭제하는 것이다. 단, 사용자가 'Y'를 누르지 않는다면 파일이 삭제되지 않는다.
+

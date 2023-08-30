@@ -1,0 +1,25 @@
+I-Worm/Melting
+
+제작지    : 외산 2000년03월
+종류      : 파일
+
+감염 증상 : 
+
+파일의 확장자를 바꾸고 화면을 뭉겐다.
+
+내용      : 
+
+I-Worm/Melting은 외국산 웜 프로그램으로 2000년 3월 발견되었다. 아직 일반에 퍼졌다는 보고는 없고 국내에서도 발견되지 않았다. 비주얼 베이식으로 작성된 웜으로 17920 바이트의 길이를 가지고 있다. 또한 웜이 실행되기 위해서는 MSVBVM50.DLL 파일이 필요하다.
+
+사용자가 메일에 첨부된 실행파일을 실행하면 MS Outlook을 통해 자신을 전파시킨다. 메일의 제목은 "Fantastic Screensaver"이며 첨부 파일명은 "MeltingScreen.exe"이다.
+
+메일의 내용은 다음과 같다.
+
+"Hello my friend ! Attached is my newest and funniest Screensaver, 
+ I named it MeltingScreen. Test it and tell me what you think. 
+ Have a nice day my friend. 
+ p.s.: Please install the Runtime Library for VB 5.0, 
+       before you run the ScreenSaver. "
+
+특징적인 증상은 윈도우 폴더의 모든 EXE 파일을 BIN 파일로 확장자를 바꾸고 화면을 뭉게는 것이다.
+

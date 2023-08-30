@@ -1,0 +1,43 @@
+I-Worm/PrettyPark
+
+다른 이름 : PrerryPark.Worm, TROJ_PRETTY_PARK, Trojan.PSW.CHV
+제작지    : 외산 1999년06월
+국내 발견 : 1999년08월 홍성한
+종류      : 파일
+기억 장소 : 상주형
+
+감염 증상 : 
+
+사용자 정보를 유출시킨다.
+
+내용      : 
+
+I-Worm/PrettyPark는 Email 로 퍼지는 웜으로 PrettyPark.Worm,TROJ_PRETTY_PARK 등으로도 불리고 있다.
+1999년 6월 유럽에서 최초로 보고되었으며 프랑스의 스팸메일을 통해 전파되어서 프랑스에서 제작되지 않았나 추측되고 있다.
+
+국내에서는 1999년 8월말에 홍성한씨에 의해 처음 발견되었으며 국내에 발견된 것은 원형이 아닌 조금 변형된 I-Worm/PrettyPark.B로 원형과 증상은 동일하다.
+
+웜 크기는 37376 바이트로 윈도우 실행파일압축 프로그램인 WWPack32로 압축되어 있어 진단, 분석을 어렵게 한다.
+
+웜 프로그램이 실행되면 상주여부를 검사한 후 상주하지 않았으면 시스템 폴더에 FILES32.VXD 파일을 만들고 레지스트리에 윈도우가 실행될 때마다 실행되도록 변경한다. 레지스트리를 변경해 모든 EXE 파일이 실행될 때마다 FILES32.VXD 파일이 실행되도록 변경한다.
+
+30분에 한번씩 인터넷 주소 북 파일이 열어 "C:\CoolProgs\Pretty Park.exe"와 제목의 웜이 첨부된 파일을 보낸다.
+
+또한 이 웜은 사용자의 컴퓨터 이름부터 Email 주소, 사용자 비밀번호 등의 여러 정보를 IRC 서버로 보내 웜 제작자가 다양한 정보를 수집할 수 있게 한다. 웜 제작자는 웜을 백도어(백오리피스와 같은)로도 사용할 수 있다.
+
+접속하려는 irc 서버는 다음과 같다.
+
+irc.twiny.net
+irc.stealth.net
+irc.grolier.net
+irc.club-internet.fr
+ircnet.irc.aol.com
+irc.emn.fr
+irc.anet.com
+irc.insat.com
+irc.ncal.verio.net
+irc.cifnet.com
+irc.skybel.net
+irc.eurecom.fr
+irc.easynet.co.uk
+

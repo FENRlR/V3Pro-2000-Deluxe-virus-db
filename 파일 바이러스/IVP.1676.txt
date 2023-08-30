@@ -1,0 +1,36 @@
+IVP.1676
+
+제작지    : 외산
+국내 발견 : 1995년08월
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 기생형
+암호 방식 : 암호화
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+매년 4월이후 파일 실행시 모든 드라이브 데이터 파괴
+
+내용      : 
+
+감염 파일이 실행될 때 현재 디렉토리부터 루트디렉토리에 있는 모든 COM, EXE 파일을 감염시킨다. 감염 파일을 4월에 실행시키면 모든 드라이브의 내용을 파괴한다.
+
+감염 파일 내부에는 다음과 같은 문자열이 암호화되어 있어 화면에 출력된다. 감염된 파일의 크기는 1676 바이트 늘어나지만 감염된 파일의 날짜와 시간은 변하지 않는다.
+
+"April-Showers UnknowN..Once again arrives April showers, 
+ The Devil came out to use his evil powers. He arose from 
+ his sacred den, To forget and do one of his evil sins.
+
+ The Devil came forth to a rich occupied land, And gathered 
+ black dark clouds from storms with his bare hands. Strikes 
+ of lightening, large and bold, Murdered many from the young 
+ to old. Creatures and critters ran for their life, But the 
+ rushing waters drow ned their lives.
+
+ The devil has left!" cried from the joys, Of the few 
+ remainding survivors saved by the lord. The sunshine beamed 
+ down from the dark blue sky, The ending of April as March 
+ came by.The fears of April showers will always remain, Just 
+ wait till next year, as the Devil will stike again.."
+

@@ -1,0 +1,27 @@
+Jerusalem.EOS
+
+다른 이름 : Jerusalem.1813.EOS
+제작지    : 국산
+국내 발견 : 1993년12월 차민석
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+매월 14일 사용중인 디스크 포맷
+
+내용      : 
+
+한국산 변형 바이러스로 원형과 달리 중복 감염되지 않으며, 감염된 EXE 파일 크기는 16의 배수가 된 후 1813 바이트 늘어난다. 단, V3.COM 파일은 감염에서 제외된다. 
+
+COMMAND.COM 파일이 감염되면 부팅이 되지 않는다. 감염된 후 특징적인 증상은 매월 14일 사용중인 디스크를 포맷하고 시스템을 재부팅한다. 하지만 하드 디스크를 파괴하지는 못한다. 
+
+감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"The E.O.S Virus -by SVS(Seoul Virus Society)
+ Cheer up! SVS-009 July in 1993. Made in Korea Good luck!
+ Don't run a Vaccine III!$"
+ Continuance"
+
