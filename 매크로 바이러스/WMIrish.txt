@@ -1,0 +1,27 @@
+WM/Irish
+
+제작지    : 외산
+국내 발견 : 1997년01월 김미경
+종류      : 매크로
+감염 위치 : MS Word
+
+감염 증상 : 
+
+NORMAL.DOC 파일 생성, 메시지 출력
+
+내용      : 
+
+이 바이러스에 감염 파일은 다음과 같은 매크로를 가지고 있으며, 파일을 저장할 때 감염시킨다.
+
+"AutoOpen, AntiVirus, WordHelp, WordHelpNT"
+
+또한, 감염된 NORMAL.DOC 파일에는 다음과 같은 매크로를 가지고 있다.
+
+"AntiVirus, FileSave, WordHelp, WordHelp, WordHelpNT" 
+ 
+WordHelp와 WordHelpNT에 증상을 가지고 있으나 실제로 바이러스에서 이 부분을 이용하지 않지만, 사용자가 도구 -> 매크로에서 WordHelp와 WordHelpNT를 실행하면 다음과 같은 증상이 발생한다.
+
+WordHelp의 경우 WIN.INI 파일을 변경하여 윈도우 95 화면색을 엉뚱하게 바꾸는데 화면 색깔이 주로 초록색 계통으로 바뀐다. WordHelpNT의 경우 화면보호기의 값을 변경하여 다음과 같은 메시지를 출력하도록 변경한다.
+
+"Happy Saint Patties Day...CDJ 1995"
+

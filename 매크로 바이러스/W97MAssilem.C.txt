@@ -1,0 +1,37 @@
+W97M/Assilem.C
+
+다른 이름 : W97M.Melissa.X, W97M_MONEY99
+제작지    : 외산 1999년11월
+국내 발견 : 2000년08월
+종류      : 매크로
+감염 위치 : MS Word
+
+내용      : 
+
+W97M/Assilem.C 바이러스는 W97M.Melissa.X, W97M_MONEY99 등으로 불리는 매크로 바이러스로 1999년 11월 발견되었다. 국내에는 2000년 8월 10일에 발견되었다.
+
+감염된 문서를 열면 바이러스가 포함된 매크로가 실행되고 이후 사용하는 문서를 감염시킨다.
+
+"HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" 레지스트리 정보에서 아래의 키 값의 유무를 확인해 없으면 추가한다.
+
+"Mcafee VShield = "c:\windows\system\vshield.exe" 
+  
+사용자 서식 폴더의 NORMAL.DOT 파일에 바이러스 매크로가 저장된다.(일반적으로 워드 97은 "C:\Program Files\Microsoft Office\Templates" 폴더, 워드 2000은 C:\Windows\Application Data\Microsoft\Templates" 폴더) 워드는 실행될 때마다 사용자 서식 폴더의 
+모든 워드 문서에서 매크로를 읽어오므로 이후 워드를 실행할 때마다 바이러스 매크로도 함께 실행된다.
+
+오피스 97과 2000에선 매크로 바이러스 예방 목적으로 매크로가 포함된 문서를 열 때 사용자에게 경고하는 기능이 있다. 이 바이러스에  감염되면 이 경고 기능을 꺼 이후 매크로가 포함된 문서를 열 때 경고창이 뜨지 않아 사용자가 바이러스 감염 사실을 어렵게 한다. 단, 오피스 
+2000에선 영향을 받지 않는다.
+
+* 매크로 경고 기능 설정 방법
+
+Word 97 : "도구(T)" -> "옵션(O)" -> "일반" -> "매크로 바이러스 보호(P)" 설정
+Word 2000 : "도구(T)" -> "매크로(M)" -> "보안" -> "보통" 으로 설정
+
+사용자가 매크로를 전혀 사용하지 않는다면 오피스 2000에선 '높음' 설정하면 된다.
+
+다음과 같은 문자열을 포함하고 있지만 화면에 출력하지는 않는다.
+
+'Mcafee blows; mail suggestions/improvements to anon15773@hushmail.com
+'Shout out to ma nigga Sketch
+'Done
+

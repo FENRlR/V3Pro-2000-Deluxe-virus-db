@@ -1,0 +1,18 @@
+X97M/Laroux.HO
+
+다른 이름 : XM.Laroux.HO, XM/Mars
+제작지    : 외산
+국내 발견 : 1999년01월 박완석
+종류      : 매크로
+감염 위치 : MS Excel
+
+감염 증상 : 
+
+PERSONAL.XLS 파일 생성
+
+내용      : 
+
+1999년 1월에 발견된 변형 바이러스로 감염된 시스템의 XLSTART 폴더에 PERSONAL.XLS 파일이 생성된다.
+
+감염된 후 Auto_Open, Auto_Search 라는 매크로가 생성되지만 감염 증상 이외의 특별한 증상은 없다.
+

@@ -1,0 +1,29 @@
+WM/Xenixos
+
+다른 이름 : Nemesis, Evil One
+제작지    : 외산 독일 1996년02월
+국내 발견 : 1997년01월 권오창
+종류      : 매크로
+감염 위치 : MS Word
+
+감염 증상 : 
+
+3월 1월 도스용 바이러스를 감염시킴
+
+내용      : 
+
+이 바이러스는 1996년 2월 인터넷의 뉴스그룹에 등록된 'NEMESIS.ZIP' 파일에서 최초로 발견되었다. 이 바이러스는 MS 워드 독일어 버전의 파일만 감염된다. 
+
+감염된 매크로는 암호화되어있기 때문에 내용을 확인할 수 없으며, 다음과 같은 매크로를 가지고 있다. 단, 한글 MS 워드로 보면 일부 문자가 깨져 보인다.
+
+"AutoExec, AutoOpen, DateiBeenden, DateiDrucken, 
+ DateiDruckenStandard, Dateioeffnen, DateiSpeichern, 
+ DateiSpeichernUnter, Drop, Dummy, ExtrasMakro"
+
+감염된 후 특징적인 증상은 매년 3월 1일 파일이 저장될 때 도스용 부트/파일 바이러스인 'Neuroquila' 바이러스를 생성시키는데 이 바이러스는 WM/Xenixos 바이러스와는 전혀 다른 바이러스이다(단, 이 바이러스는 패스가 설정되어 있는 폴더에 DEBUG.EXE 파일이 존재하면 
+만들어지지 않는다.).
+
+이외에도 매년 5월 1일 C:\AUTOEXEC.BAT 파일 내부에 다음과 같은 FORMAT 명령을 추가시키며("@echo j|format c: /u >nul"), 문서를 출력할 때 1/2의 확률로 문서 끝에 'Brought to you by the Nemesis Corporation, 1996'라는 문자열을 추가시킨다. 
+
+또한, 파일을 저장할 때 1/4 의 확률로 'xenixos' 라는 암호를 포함한 채 저장시킨다.
+

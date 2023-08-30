@@ -1,0 +1,34 @@
+W97M/Thus.G
+
+다른 이름 : W97M.THUS.M
+제작지    : 외산 2000년02월
+국내 발견 : 2000년06월
+종류      : 매크로
+감염 위치 : MS Word
+
+감염 증상 : 
+
+VB.TXT 파일을 생성하며, 매년 5월 감염된 문서를 보지 못하게 한다.
+
+내용      : 
+
+W97M/Thus.G 바이러스는 W97M.THUS.M 으로도 불리는 매크로 바이러스로 2000년 2월 발견되었다. 국내에서는 2000년 6월 30일 발견되었다.
+
+감염된 문서를 열면 바이러스가 포함된 매크로가 실행되고 이후 사용하는 워드 문서를 감염시킨다. 문서가 열리거나 닫히거나 새로 만들어 질 때 감염시키는데 바이러스 버그로 새로운 문서를 만들 땐 다음과 같은 오류가 발생할 수 있다. 
+
+  "컴파일 오류입니다. : 구문 오류입니다."
+
+사용자 서식 폴더의 NORMAL.DOT에 바이러스 매크로가 저장된다. (일반적으로 워드 97은 C:\Program Files\Microsoft Office\Templates, 워드 2000의 경우 C:\Windows\Application Data\Microsoft\Templates)
+
+워드는 실행될 때마다 사용자 서식 폴더의 모든 매크로를 읽으므로 이후 워드가 실행할 때마다 바이러스도 실행된다.
+
+바이러스 감염 이외에 특징적인 증상은 존재하지 않는다.
+
+다음과 같은 문자열을 포함하고 있다.
+
+'Thus_001'
+'Anti-Smyser'
+' This virus is an alteration of a virus which was
+' designed to delete all files from one's C: drive on Dec 13th.
+' This code is completely benign.
+

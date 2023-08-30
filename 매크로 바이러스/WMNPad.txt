@@ -1,0 +1,28 @@
+WM/NPad
+
+다른 이름 : WordMacro.Jakarta
+제작지    : 외산 인도네시아
+국내 발견 : 1997년05월 신지희
+종류      : 매크로
+암호 방식 : 암호화
+감염 위치 : MS Word
+
+감염 증상 : 
+
+23번째 실행시 메시지 출력
+
+내용      : 
+
+이 바이러스에 감염되면 하나의 매크로를 가지며(AutoOpen) 암호화된 관계로 '도구/매크로' 기능으로는 내용을 볼 수 없다.
+
+감염된 후 특징적인 증상은 WIN.INI 파일의 '[Compatibility]' 내용에 'Npad328'라는 변수를 만들어 내부 숫자가 23이 되면 워드 문서를 열 때 다음과 같은 메시지가 출력된다.
+
+"D0EUNPAD94, v.21,(c)Maret 1996,Bandung,Indonesia"
+
+또한, 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"D0EUNPAD94, v.2.21,(c)Maret 1996, Bandung, Indonesia
+ Macro MsWord virus, multiplatform, multi versi"
+
+여기에서 'UnPad'는 'Universitas Padjajaran'라는 인도네시아어의 약자라고 한다.
+

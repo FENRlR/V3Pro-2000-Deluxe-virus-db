@@ -1,0 +1,39 @@
+X97M/HJB
+
+제작지    : 국산
+국내 발견 : 2000년05월
+종류      : 매크로
+감염 위치 : MS Excel
+
+감염 증상 : 
+
+매년 4월 24일 오후 2시 시간대(2시부터 2시 59분까지) 질문을 하여 틀리면 시트 내용을 지운다.
+
+내용      : 
+
+X97M/HJB 바이러스는 매크로 바이러스로 2000년 5월 16일 국내에서 처음 발견되었다. 발견 당시 외국에서도 보고된 바 없었으나 나중에 한국에서 제작된 것으로 밝혀졌다.
+
+엑셀 97/2000에서 감염되며 감염된 문서를 열면 바이러스를 포함한 매크로가 실행되며 XLSTART 폴더에 HJB.XLS 파일을 만들며, 이후 사용하는 엑셀 문서를 감염시킨다.
+
+특징적인 증상은 매년 4월 24일 오후 2시(2시부터 2시 59분까지)에 나타나며 아래와 같은 질문을 한다.
+
+"1st Qusetion
+ Question : What is the Sword Which Karl Styner(=Gray Scavenger) used?
+ Answer : Barisada"
+
+ 이때 "아니오"를 선택하면
+ "Right Answer
+  Good! You're Authorized now!!"를 출력해 컴퓨터를 사용하게 해준다.
+
+ 만약 "예"를 선택하면
+ "Wrong Answer
+ "I will give you one more Chance. Be careful!!"을 출력한 후 다시 한번 질문한다.
+
+ "Wrong Answer may cause The Serious Problem!
+ "Summoning Xavier is the Ultimate Magic. Right?"
+
+이때 "예"를 선택하면 "Right Answer, ok , i will forgive you"가 출력되지만 "아니오"를 선택하면 
+
+"You shall Die 
+ Wrong Answer, Your file will be deleted!"가 출력되며 현재 작업중인 모든 시트의 내용을 지워버린다.
+

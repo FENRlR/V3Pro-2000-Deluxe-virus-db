@@ -1,0 +1,48 @@
+X97M/HJB.D
+
+제작지    : 국산
+국내 발견 : 2000년07월
+종류      : 매크로
+감염 위치 : MS Excel
+
+감염 증상 : 
+
+매년 4월 24일 오후 2시 시간대(2시부터 2시 59분까지) 질문을 하여 틀리면 시트 내용을 지운다.
+
+내용      : 
+
+X97M/HJB.D 바이러스는 엑셀 매크로 바이러스로 2000년 7월 28일 발견되었다. 한국에서 제작된 것으로 추정되고 있다.
+
+X97M/HJB의 변형으로 원형이 HJB.XLS 파일을 생성하지만 이 변형은 RMC.XLS 파일을 생성한다. 이외엔 원형과 동일하다.
+
+감염된 문서를 열면 바이러스가 포함된 매크로가 실행되고 이후 사용하는 문서를 감염시킨다.
+
+사용자 서식 폴더의 RMC.XLS 파일에 바이러스 매크로가 저장된다.(사용자 서식 폴더는 일반적으로 엑셀 97은 "C:\Program Files\Microsoft Office\Office\XLstart" 폴더, 엑셀 2000은 "C:\Windows\Application Data\Microsoft\Excel\XLSTART" 폴더임)
+
+엑셀은 실행될 때마다 사용자 서식 폴더의 모든 엑셀 문서에서 매크로를 읽어오므로 이후 엑셀을 실행할 때마다 바이러스 매크로도 함께 실행된다.
+
+특징적인 증상은 매년 4월 24일 오후 2시(2시부터 2시 59분까지)에 나타나며 아래와 같은 질문을 한다.
+
+"1st Qusetion
+Question : What is the Sword Which Karl Styner(=Gray 
+Scavenger) used? 
+Answer : Barisada"
+
+이때 "아니오"를 선택하면
+
+"Right Answer
+Good! You're Authorized now!!"를 출력해 컴퓨터를 사용하게 해준다.
+
+만약 "예"를 선택하면
+
+"Wrong Answer
+"I will give you one more Chance. Be careful!!"을 출력한 후 또 한번 질문한다.
+
+"Wrong Answer may cause The Serious Problem!
+"Summoning Xavier is the Ultimate Magic. Right?"
+
+이때 "예"를 선택하면 "Right Answer, ok , i will forgive you"가 출력되지만 "아니오"를 선택하면 
+
+"You shall Die
+Wrong Answer, Your file will be deleted!"가 출력되며 현재 작업중인 모든 시트의 내용을 지워버린다.
+

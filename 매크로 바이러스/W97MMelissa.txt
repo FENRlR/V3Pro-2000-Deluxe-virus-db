@@ -1,0 +1,40 @@
+W97M/Melissa
+
+제작지    : 외산 1999년03월
+국내 발견 : 1999년03월 이수림
+종류      : 매크로
+감염 위치 : MS Word
+
+감염 증상 : 
+
+MS Outlook을 통해 50명에게 감염 파일 전송, 오늘 날짜와 분이 같을 때 문자열 추가
+
+내용      : 
+
+외국산 워드 97/워드 2000용 매크로 바이러스로 1999년 3월 26일 최초로 발견되었으며, 우리나라에서도 3월 29일 처음 발견되었다.
+
+이 바이러스는 성인용 사이트에 접근할 수 있는 아이디와 암호를 담은 문서라는 제목으로 해적 사이트를 배포되었으며, 이후 급격히 확산되고 있다.
+
+감염된 파일을 열면 우선 워드 97 혹은 워드 2000의 매크로 바이러스 예방 기능을 무력화시켜 매크로가 포함된 문서를 열려고 해도 사용자에게 경고를 주지 않으며, 이후 읽어 들이는 문서들을 감염시킨다.
+
+또한, '도구(T)' -> '매크로'를 통해 매크로 내용을 보려고 해도 매크로가 전혀 없는 것으로 화면에 표시되어 감염 사실을 쉽게 할 수가 없다. 단, '도구(T)'->'매크로'의 'Visual Basic 편집기'를 선택하면 'Microsoft Word 개체'에서 'Melissa'라는 문자 코드가 포함되어 있다.
+
+이 바이러스의 특징은 워드에서 제공하는 비주얼 베이식(Visual Basic)이 다른 마이크로소프트사 제품 기능을 사용할 수 있다는 점을 이용해 'MS Outlook'에서 50명의 Email 주소를 얻어낸 후 바이러스가 담긴 문서를 사용자들에게 발송한다.
+
+단, 이런 증상은 'Ms Outlook'을 사용하지 않으면 발생하지 않는다. 이 때 발송되는 문서의 제목은 "Important Message From 사용자명"이며, "Here is that document you asked for. don't show anyone else;->"라는 내용과 감염된 파일 문서를 담고 있다. 
+
+발송된 감염된 파일 문서는 감염된 사람이 작업하고 있는 워드 문서의 내용으로 만약 중요한 내용이라면 외부에 유출될 위험성이 있다. 단, 이러한 메일 발송 현상은 감염된 후 한 번만 일어난다.
+
+또다른 특징은 오늘 날짜와 분이 같을 때(예를 들어 오늘이 31일이라면 31분일 때) 다음과 같은 문자열을 현재 작업중인 문서에 추가시킨다.
+
+"Twenty-two points, plus triple-word-score, plus fifty
+ points for using all my letters. Game's over. 
+ I'm outta here."
+
+감염 파일 내부에는 다음과 같은 문자열이 존재한다.
+
+"WORD/Melissa written by Kwyjibo
+ Works in both Word 2000 and Word 97
+ Worm? Macro Virus? Word 97 Virus? Word 2000 You Decide!
+ Word --> Email | Word 97 <--> Word 2000 ... 
+ it's a new age!"
