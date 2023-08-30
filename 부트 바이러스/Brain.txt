@@ -1,0 +1,34 @@
+Brain
+
+제작지    : 외산 파키스탄 1987년10월
+국내 발견 : 1988년05월
+종류      : 부트
+기억 장소 : 상주형
+감염 위치 : 플로피 디스크의 부트섹터
+
+감염 증상 : 
+
+기본 메모리 7 킬로바이트 줄임, '(c) Brain'으로 볼륨 이름 변경
+
+내용      : 
+
+1987년 10월 미국 델라웨어 대학(Delaware University)에서 처음 발견된 외국산 부트 바이러스이다.
+
+파키스탄 사람인 당시 26세의 앰자드 알비(Amjad Farooq Alvi)와 19세의 배시트 알비(Basit Farooq Alvi)가 제작한 것으로 자신이 만든 프로그램이 불법 복사되는 것을 처벌하기 위해서 바이러스를 만들어 86년초부터 퍼트렸다는 이야기도 전해지고 있다.
+
+한국에서는 1988년 5월부터 확산되기 시작했으며, 한국에서 최초로 발견된 컴퓨터 바이러스로 이후 백신 프로그램(Anti-Virus Program)의 효시이자 V3+의 전신인 백신(Vaccine.com) 프로그램이 제작되었다.
+
+360 킬로바이트 용량을 가진 플로피 디스크만 감염되는데 디스크에서 사용하지 않는 영역에 원래의 부트섹터와 바이러스의 뒷부분을 보관하고, 이 부분을 불량 클러스터(bad cluster)로 표시해서 다른 프로그램이 이 부분을 사용하지 못하도록 보호한다. 감염된 디스크의 볼륨 
+라벨을 '(c) Brain'으로 바꾼다.
+
+감염된 시스템은 기본 메모리는 7 킬로바이트 줄어들며, 은폐기법을 사용하는 바이러스로 기억장소에 바이러스가 존재할 때 부트섹터를 읽으려고 하면 원래의 부트섹터를 대신 보여준다.
+
+감염된 부트 데이터에는 다음과 같은 문자열이 포함되어 있다.
+
+"Welcome to the Dungeon (c) 1986 Brain& Amjads (pvt) Ltd
+ VIRUS_SHOE RECORD v9.0 Dedicated to the dynamic memories
+ of millions of virus who are no longer with us today 
+ Thanks GOODNESS!! BEWARE OF THE er..VIRUS 
+ this program is catching program follows after 
+ these messeges."
+
