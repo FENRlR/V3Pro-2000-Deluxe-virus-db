@@ -1,0 +1,32 @@
+CSC/CSV
+
+다른 이름 : CS.Galadriel, CS.Gala, CSC.CSV.A
+제작지    : 외산 1999년01월
+종류      : 파일
+
+감염 증상 : 
+
+메시지 출력
+
+내용      : 
+
+CSC/CSV는 첫 번째로 발견된 코렐 스크립트 바이러스(Corel Script virus)로 1999년 1월 발견되었다.
+
+코렐 스크립트는 코렐 드로우(Corel Draw)를 포함한 여러 코렐사 제품에 사용된다. 코렐 스크립트의 확장자는 CSC로 파일 읽기, 쓰기가 가능해 바이러스나 트로이목마의 제작이 가능하다. 바이러스 제작자는 자신은 Zaxon으로 부르는 자로 스페인의 바이러스 제작 그룹인 DDT 
+소속이다. 그러나 일반에 퍼졌다는 보고는 없다.
+
+바이러스에 감염된 스크립트가 실행되면 현재 폴더의 모든 CSC 파일을 감염시킨다. 특징적인 증상은 매달 6월 6일 발생하면 다음과 같은 메시지가 출력하는 것이다.
+
+"GaLaDRieL ViRUS bY zAxOn/DDT
+
+ Ai! lauriie lantar lassi surinen!
+ Yeni unotime ve ramar aldaron,
+ yeni ve linte yuldar vanier
+ mi oromardi lisse-miruvoreva
+ Andㄳe pella Vardo tellumar
+ nu luini yassen tintilar i eleni
+ omaryo airetari-lirinen.
+            	...."            
+
+이 메시지는 톨킨의 소설인 "반지의 지배자(Lord of the Rings)"에서 "Galadriel's Song of Eldamar"의 일부라고 한다.
+

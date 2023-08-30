@@ -1,0 +1,21 @@
+Dark_Avenger
+
+제작지    : 외산 불가리아 1990년
+국내 발견 : 1990년07월 박병호
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+16번째 실행시 임의의 파일 삭제
+
+내용      : 
+
+감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"Eddie live...somewhae in time!.
+ This program was written 
+ in the city of Sofia (c)1988-89 Dare Avenger"
+

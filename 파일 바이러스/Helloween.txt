@@ -1,0 +1,33 @@
+Helloween
+
+다른 이름 : Helloween.1376.A
+제작지    : 외산 1992년02월
+국내 발견 : 1996년05월
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+매년 11월 1일이 되면 화면을 붉게 만든 후 메시지 출력
+
+내용      : 
+
+감염 파일 실행 후 실행되는 COM, EXE 파일을 감염시킨다. 단, 확장자를 검사해서 감염시키므로 오버레이 파일은 감염시키지 않는다. 또한 읽기전용속성 파일도 감염시킬 수 있으며, 감염 파일은 1376 바이트 늘어난다.
+
+단, 파일 이름이 다음과 같은 4자로(SCAN, SHIE, TRAP, VIRU, VCOP, ASTA, ALIK, AZOR, REX., MAND, UEXE, UCOM, VIRT, CLEA, TSAF, NAV., INI., BOOT, 3P.E) 시작하는 파일은 감염시키지 않는다.
+
+감염된 후 특징적인 증상은 11월 1일 화면을 붉게 만든 후 다음과 같은 메시지를 출력하고 시스템을 재부팅한다.
+
+" Nesedte porad u pocitace a zkuste jednou delat neco rozumneho!
+                  *******************
+!! Poslouchejte HELLOWEEN - nejlepsi metalovou skupinu !!"
+
+
+* 변종 Helloween.B
+2월 27일 다음과 같은 메시지를 출력한다.
+
+"zdravim uzivatele pocitacu hlavne vsechny LENKY a nejvic tu nasi!
+ Preji ti vsechno nejlepsi ktvwmu svatku ahoj P."
+

@@ -1,0 +1,18 @@
+Eddy.1500
+
+다른 이름 : Eddy.CACA
+제작지    : 국산
+국내 발견 : 1996년03월 김영수
+종류      : 파일
+기억 장소 : 상주형(은폐기법 사용)
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+내용      : 
+
+Eddy.1551 바이러스의 변형으로 문자열을 제외한 다른 특징은 동일하다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"Welcome to CACA..CACA...CACA...CACA
+ (c) Copyleft CACA...CACA...CACA.
+ CACA....VER 1.0 !!!"
+
