@@ -1,0 +1,14 @@
+Possessed
+
+제작지    : 외산 필리핀
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+내용      : 
+
+감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"POSSESSED! Bwa! ha! ha! ha! Authod: JonJon Gumba of Adu"
+

@@ -1,0 +1,30 @@
+Miny1.1010
+
+제작지    : 국산
+국내 발견 : 1998년03월 강영숙
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+겹쳐 쓰기로 인한 파일 파괴
+
+내용      : 
+
+기존의 Miny1.376 바이러스를 다른 제작자가 변형한 것으로 보이는 바이러스로 감염 파일 실행시 현재 디렉토리의 모든 COM, EXE 파일을 감염시킨다.
+
+감염된 파일이 실행되면 해당 디렉토리에 18181025.COM 이라는 숨김속성의 파일을 생성한다. 겹쳐쓰기형 바이러스로 감염된 파일은 모두 파괴되며 읽기전용속성을 갖는 파일은 속성은 해제하고 감염시킨다.
+
+감염시 WIN.COM 파일은 감염에서 제외되며, 감염 파일이 매월 19일 실행되면 다음과 같은 메시지를 출력하고 실행을 멈춘다.
+
+"I believed if time passes, every thing turns into  beauty
+ If the rains stop, tears clean the scars of memory away
+ Everything starts wearing fresh colors
+ Every sound begins playing a heartfelt melody
+ Jealousy embellishes a page of the epic
+ Desire is embraced in a dream
+ But my mind is still in chaos and..
+ [Hell Virus] made by J.P.N"
+

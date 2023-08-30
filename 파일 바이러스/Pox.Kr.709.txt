@@ -1,0 +1,22 @@
+Pox.Kr.709
+
+제작지    : 국산
+국내 발견 : 1996년07월 김민수
+종류      : 파일
+기억 장소 : 상주형(은폐기법 사용)
+감염 방법 : 기생형
+암호 방식 : 암호화
+감염 위치 : COMMAND.COM, COM
+
+감염 증상 : 
+
+매월 24일 웜 부팅시 하드 디스크 포맷
+
+내용      : 
+
+감염된 COM 파일 크기는 709 바이트 늘어나며, 은폐형 기법을 사용하는 암호화 바이러스이다. 감염된 후 특징적인 증상은 매월 24일 웜 부팅시 하드 디스크를 포맷하고 재부팅한다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"BeBack(c)CopyRight 1996 Park MinHark..
+ I would Come back. Wait for ME..GoodBye!..
+ Please..Wait.Wait..Distribute anysite.."
+

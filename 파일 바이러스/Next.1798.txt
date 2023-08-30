@@ -1,0 +1,18 @@
+Next.1798
+
+제작지    : 국산
+국내 발견 : 1994년09월
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+암호 방식 : 암호화
+감염 위치 : COMMAND.COM, COM, EXE
+
+내용      : 
+
+감염된 후 별다른 특징은 없으며, 감염된 COM 파일 크기는 1798 바이트, EXE 파일은 1862 바이트 늘어난다. 메모리 상주시 은폐 기능을 가지고 있으며, 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"The Return of N.EX.T part I The Being
+ Message from SVS(Seoul Virus Society) 1994/07/26
+ (c) KOV (Knight Of Virus)/ Corea 9192/04/02"
+
