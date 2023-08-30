@@ -1,0 +1,31 @@
+VBS/Fool
+
+제작지    : 외산 2000년05월
+국내 발견 : 2000년05월
+종류      : 파일
+
+감염 증상 : 
+
+감염 이외의 특별한 증상은 없음
+
+내용      : 
+
+VBS/Fool은 외국산 스크립트 바이러스로 2000년 1월 1일 처음 발견되었고 국내에는 2000년 5월 7일 발견되었다.
+
+감염된 파일이 실행되면 다음 파일을 생성한다.
+
+c:\Windows\system\MyPicture.bmp.vbs
+c:\Windows\Start Menu\Programs\StartUp\RunDLL.vbs
+c:\My Documents\MyPicture.bmp.vbs
+c:\MyPicture.bmp.vbs
+
+이후 C:\, C:\My Documents, C:\Windows, C:\Windows\Samples\WSH 등에서 VBS 파일을 찾아 바이러스로 덮어쓴다.
+
+C:\MIRC\SCRIPT.INI 파일도 만드는데 이 파일은 mIRC를 이용해 IRC로 채팅할 경우 C:\Windows\System\MyPicture.bmp.vbs 파일을 다른 사용자들에게 보내는 역할을 한다.
+
+감염외 특별한 증상은 없다.
+
+감염된 파일 내부에는 다음과 같은 문자열이 존재한다.
+
+" Millennium 0.4b vBS/mIRC =]"
+

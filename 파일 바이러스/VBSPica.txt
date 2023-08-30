@@ -1,0 +1,40 @@
+VBS/Pica
+
+다른 이름 : I-Worm.Lee.e, VBS_PICA.A, VBS.DS9
+제작지    : 외산 독일 2000년06월
+종류      : 파일
+
+감염 증상 : 
+
+DS9.VBS 파일을 생성한다.
+
+내용      : 
+
+VBS/Pica 웜은 I-Worm.Lee.e, VBS_PICA.A, VBS.DS9 등으로도 불리는 VBS(Visual Basic Script)로 작성된 웜으로 2000년 6월 28일 처음 발견되었으며 독일에서 제작된 것으로 추정된다. 국내에서는 발견되지 않았고 이 웜이 일반 사용자에게 퍼졌다는 보고는 아직까지 없다.
+
+감염된 VBS 파일을 실행하면 스크립트가 실행되고 윈도우 시스템 폴더(일반적으로 C:\WINDOWS\SYSTEM)에 DS9.VBS 파일이 생성된다. DS9은 "Deep Space Nine"이란 TV 쇼 이름이라고 한다.
+  
+레지스트리에 다음 항목을 추가하여 윈도우가 부팅될 때마다 웜이 자동으로 실행하게 한다.
+
+  "HKEY_LOCAL_MACINE\Software\Microsoft\Windows\CurrentVersion\Run\Lee"
+
+이후 MS 아웃룩( MS Outlook)을 이용해 아웃룩 주소록에 있는 주소로 첨부 파일이 포함된 메일을 보낸다.
+
+보내지는 메일의 제목과 내용은 다음과 같다.
+
+  제목 : "Hi check This..."
+  내용 : "Hello..your Game is Over..By Q from Lee"
+  첨부파일 : "Ds9.vbs"
+
+mIRC(인터넷 채팅 프로그램)이 설치된 폴더에 스크립트 파일을 만든다.(일반적으로 "c:\mirc" 폴더와 "c:\mirc32" 폴더) 이후 mIRC로 IRC(Internet Relay Chat. 인터넷을 통해 구축된 대화방) 채팅을 할 때 같은 방 있는 다른 사람들에게 감염된 파일을 자동으로 전송한다.
+
+다음과 같은 문자열을 포함하고 있다.
+
+  "'Worm Created by DS9 --> Lee"
+
+* 윈도우98에서 Windows Scripting Host 제거하는 방법
+  
+VBS 파일을 사용하지 않는다면 다음과 같은 방법으로 VBS 파일이 실행되지 않게 할 수도 있다. 단 주의할 점은 모든 VBS 파일이 실행되지 않는다.
+
+ "내컴퓨터" -> "제어판" -> "프로그램 추가/제거" -> "Windows 설치" -> "보조프로그램" -> "Windows Scripting Host" 항목 제거
+

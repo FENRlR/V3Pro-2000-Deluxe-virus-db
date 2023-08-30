@@ -1,0 +1,18 @@
+Trivial.934
+
+제작지    : 국산
+국내 발견 : 1997년10월 조춘구
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COM
+
+내용      : 
+
+COM(COMMAND.COM 파일 포함) 파일만 감염되는 파일 바이러스로 현재 디렉토리에 있는 모든 COM 파일의 앞부분 934 바이트를 겹쳐 쓰며, 루트디렉토리로 옮겨 다시 모든 COM 파일을 감염시킨 후 프로그램을 종료한다.
+
+겹쳐쓰기형 바이러스이므로 감염 파일이 파괴되며, 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"(c) Copyleft 1997 by MOV(Master Of Virus)of SVS COREA 
+ Ha. Ha. [COMMAND Killer Virus] (Overwriting) Good luck"
+

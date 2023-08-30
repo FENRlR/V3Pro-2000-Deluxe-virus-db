@@ -1,0 +1,40 @@
+VBS/Love_Letter.S
+
+다른 이름 : VBS.LoveLetter.Kitty
+제작지    : 외산 일본 2000년06월
+국내 발견 : 2000년06월
+종류      : 파일
+감염 방법 : 겹쳐쓰기형
+
+감염 증상 : 
+
+특정 확장자의 파일을 손상시킨다.
+
+내용      : 
+
+VBS/Love_Letter.S 바이러스는 VBS.LoveLetter.Kitty로도 불리는 외국산 VBS (Visual Basic Script) 바이러스로 일본에서 제작된 것으로 추정된다. 국내에서는 2000년 6월 3일 처음 발견되었다.
+
+감염된 VBS 파일을 실행하면 스크립트가 실행되고 MS 아웃룩(MS Outlook)을 이용해 아웃룩 주소록에 있는 주소로 첨부파일이 포함된 메일을 보낸다.
+
+보내지는 메일의 제목과 내용은 다음과 같다.
+
+  제목 : Hello Kitty
+  내용 : About Hello Kitty latest News in JAPAN. 
+         See the attached document.
+  첨부파일 : Hello-Kitty.TXT.vbs
+
+윈도우 폴더(일반적으로 C:\WINDOWS)에 'WinPower.vbs'가 윈도우 시스템 폴더(일반적으로 C:\WINDOWS\SYSTEM)에 'Snoopy.vbs', 'Hello-Kitty.TXT.vbs'가 생성된다. 그리고 레지스트리에 다음 두 항목을 추가하여 윈도우가 부팅될 때마다 자동으로 실행하게 한다.
+
+  'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\Snoopy'
+  'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices\WinPower'
+
+아웃룩이나 아웃룩 익스프레스를 사용할 경우 대량의 메일 트래픽으로 인해 메일 서버가 다운되는데, 메일 서버와 파일 서버, 웹 서버 등을 구분하지 않는 환경에서는 전체 네트워크가 마비되는 상황이 벌어진다.
+
+파일의 확장자가 VBS, VBE인 경우 바이러스가 겹쳐쓰기되며 JS, JSE, CSS, WSH, SCT, HTA, DOC의 경우 바이러스로 겹쳐쓰기되고 확장자가 VBS로 바뀐다. 또한 JPG, JPEG 파일은 바이러스가 겹쳐쓰기되고 VBS 확장자가 추가된다. 이 변형은 DOC 확장자도 파괴하므로 
+사용자가 만든 워드 문서의 내용도 바이러스로 겹쳐써져 파괴된다.
+
+그러나 MP3, MP2 파일은 숨김속성으로 변경되고 동일한 이름의 바이러스 파일을 생성한다. 예를 들면 love_letter.mp3 파일의 경우 love_letter.mp3 파일은 숨김속성으로 변경되고 love_letter.mp3.vbs 파일이 생성된다.
+
+감염시킬 파일을 찾는 과정에서 MIRC32.EXE나 MLINK32.EXE, MIRC.INI, SCRIPT.INI, MIRC.HLP 파일을 찾으면 그 폴더에 SCRIPT.INI 파일을 생성한다. 이후 mIRC(인터넷 채팅 프로그램)로 IRC(Internet Relay Chat 인터넷을 통해 구축된 대화방) 채팅을 할 경우 
+'Hello-Kitty.HTM' 파일을 다른 사람에게 퍼뜨린다.
+

@@ -1,0 +1,44 @@
+Win95/Marburg
+
+다른 이름 : Win95.Marburg.A, Win95/Marburg
+제작지    : 외산 스페인 1998년
+국내 발견 : 1998년07월 한승민
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 기생형
+암호 방식 : 암호화(다형성기법 사용)
+감염 위치 : EXE
+
+감염 증상 : 
+
+감염 3개월 후 화면에 그림 출력
+
+내용      : 
+
+1998년 7월 영국의 PC Gamer 잡지에서 포함된 CD에 감염된채 배포되어 널리 알려진 바이러스로 PC Gamer지의 발표에 의하면 이 잡지는 영국에서 5만부 정도 판매되었고, 아래의 3개 파일에 감염된 것으로 알려졌다.
+
+\UTILS\QPaint\Qpaint.exe
+\UTILS\Xearth\Xearth.exe
+\VIDEO\Smackplw.exe 
+
+또한, MGM 인터렉티브사에서 발표한 정품 게임인 Wargames CD에서도 바이러스에 감염된 파일이 발견되었다(\EREG\EREG32.EXE). 
+
+윈도우 95/98에서 동작하는 윈도우용 바이러스로 자체적인 버그가 있어 윈도우 NT에서는 동작하지 않는다. 하지만 다형성 바이러스로 감염될 때마다 다른 암호화 기법을 사용해 진단을 어렵게 한다.
+
+감염된 파일이 실행되면 현재 폴더와 윈도우와 윈도우의 시스템 폴더에서 EXE, SCR 파일을 찾아 윈도우용 PE 파일이면 감염시킨다. 
+
+파일을 찾는 중에 ANTI-VIR.DAT, CHKLIST.MS, AVP.CRC, IVB.NTZ라는 파일이 있으면 삭제한다. 또한, 파일에 'V'가 포함되어 있거나 이름이 'PANDA, F-PROT, SCAN'으로 시작하는 파일은 감염에서 제외된다.
+
+감염된 파일에는 다음과 같은 문자열이 포함되어 있다.
+
+"GetModuleHandleA GetProcAddress CreateFileA 
+ CreateFileMappingA MapViewOfFile UnmapViewOfFile
+ CloseHandle FindFirstFileA FindNextFileA
+ FindClose VirtualAlloc GetWindowsDirectoryA
+ GetSystemDirectoryA GetCurrentDirectoryA 
+ SetFileAttributesA SetFileTime DeleteFileA
+ GetCurrentProcess WriteProcessMemory LoadLibraryA
+ GetSystemTime GetDC LoadIconA DrawIcon
+ [ Marburg ViRuS BioCoded by GriYo/29A ]
+ KERNEL32.dll USER32.dll"
+

@@ -1,0 +1,89 @@
+Win32/MTX
+
+다른 이름 : I-Worm.MTX, I-Worm.Win32.MTX, PE_MTX.A, W95.MTX.dr, W32/MTX@MM, W32/Apology
+제작지    : 외산 2000년08월
+국내 발견 : 2000년9월
+종류      : 파일
+감염 위치 : EXE
+
+내용      : 
+
+Win32/MTX 바이러스는 I-Worm.MTX, I-Worm.Win32.MTX, PE_MTX.A, W95.MTX.dr, W32/MTX@MM, W32/Apology 등으로 불리는 바이러스로 자신들을 '[MATRix]'로 부르는 바이러스 제작 그룹에서 제작한 것으로 추정된다. 외국에서는 2000년 8월 23일에 발견되었으며, 
+국내에서는 9월 9일에 발견되었다.
+
+사용자가 감염된 파일을 실행하면 윈도우 디렉토리(일반적으로 C:\Windows 폴더)에 다음 파일이 생성된다. 단, 몇몇 파일은 숨김 속성으로 Windows 탐색기로 찾지 못할 수도 있다
+
+ IE_PACK.EXE ( 바이러스 본체 - 18483 바이트 )
+ WIN32.DLL ( 바이러스 본체 - 18483 바이트 )
+ MTX_.EXE ( 백도어 프로그램 - 6144 바이트 )
+
+레지스트리에 다음의 항목들이 추가되며, 부팅 시마다 백도어 프로그램을 실행하게 된다.
+
+HKEY_LOCAL_MACHINE\Software\[MATRix] 
+: 아무 역활도 하지 않음
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run 항목에 
+SystemBackup = "C:\WINDOWS\MTX_.EXE"
+
+윈도우 시스템 폴더(일반적으로 C:\Windows\System) 폴더에 WSOCK32.MTX 파일을 생성한다. 이 파일은, WSOCK32.DLL 파일을 감염시킨 것으로 다음 번 부팅때 WSOCK32.MTX 파일이 WSOCK32.DLL 파일로 대체된다. 이후 사용자가 외부 메일 서버 (SMTP)를 
+사용해서 메일을 보낼 경우 사용자가 보낸 메일 외에 바이러스 파일이 첨부된 메일이 별도로 전송된다.
+메일의 제목은 없으며 첨부 파일은 다음 중 하나가 된다.
+
+ALANIS_Screen_Saver.SCR
+ANTI_CIH.EXE
+AVP_Updates.EXE
+BILL_GATES_PIECE.JPG.pif
+BLINK_182.MP3.pif
+' FEITICEIRA_NUA.JPG.pif
+FREE_xxx_sites.TXT.pif
+FUCKING_WITH_DOGS.SCR
+Geocities_Free_sites.TXT.pif
+HANSON.SCR
+I_am_sorry.DOC.pif
+I_wanna_see_YOU.TXT.pif
+INTERNET_SECURITY_FORUM.DOC.pif
+IS_LINUX_GOOD_ENOUGH!.TXT.pif
+JIMI_HMNDRIX.MP3.pif
+LOVE_LETTER_FOR_YOU.TXT.pif
+MATRiX_2_is_OUT.SCR
+MATRiX_Screen_Saver.SCR
+Me_nude.AVI.pif
+METALLICA_SONG.MP3.pif
+NEW_NAPSTER_site.TXT.pif
+NEW_playboy_Screen_saver.SCR
+Protect_your_credit.HTML.pif
+QI_TEST.EXE
+READER_DIGEST_LETTER.TXT.pif
+SEICHO-NO-IE.EXE
+Sorry_about_yesterday.DOC.pif
+TIAZINHA.JPG.pif
+WIN_$100_NOW.DOC.pif
+YOU_are_FAT!.TXT.pif
+zipped_files.EXE
+
+몇몇 백신 업체로는 메일을 보낼 수 없게해 바이러스 발견을 시기를 늦춘다.
+
+다음과 같은 문자열을 포함하고 있다.
+
+"Software provied by [MATRiX] VX team: 
+ Ultras, Mort, Nbk, LOrd DArk, Del_Armg0, Anaktos
+ Greetz: 
+ All VX guy on #virus channel and Vecna
+ Visit us : ( Matrix 그룹 웹사이트 )
+"
+
+백도어 역할을 하는 MTX_.EXE 파일은 V3 제품군에서는 'Win-Trojan/MTX.6144'로 진단한다.
+
+백도어는 다음과 같은 문자열을 포함하고 있다
+
+"Software provide by [MATRiX] team:
+ Ultras, Mort, Nbk, LOrd DArk, Del_Armg0, Anaktos
+ Greetz: 
+ Vecna 4 source codes and ideas,
+"
+
+* 치료시 주의점 
+
+확장자가 SCR, PIF로 첨부된 파일의 경우 V3 제품에서 검사 파일 대상이 '실행 파일 검사'로 설정되어 있다면 SCR, PIF 파일을 기본으로 진단하지 않으므로 검사 대상을 '모든 파일'로 변경하거나 실행 파일과 함께 환경설정의 수동검사에서 '사용자 정의 형식 검사'에 PIF, SCR 
+확장자를 추가시켜 검사한다.
+

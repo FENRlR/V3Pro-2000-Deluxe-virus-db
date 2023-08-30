@@ -1,0 +1,32 @@
+VBS/Tune
+
+다른 이름 : VBS.Tune, VBS_TUNE, VBS.Tune.B
+제작지    : 외산 1999년12월
+국내 발견 : 2000년05월
+종류      : 파일
+
+내용      : 
+
+VBS/Tune는 외국산 스크립트 웜으로 1999년 12월 30일 처음 발견되었다. 국내에서는 2000년 5월 7일 처음 발견되었으며, VBS.Tune, VBS_TUNE, VBS.Tune.B 등으로 불리기도 한다.
+
+감염된 VBS 파일이 실행되면 다음 파일이 생성한다.
+
+TUNE.VBS, KERNEL.VBS, WINSCK.VBS, EXPLORER.VBS
+
+생성되는 폴더는 윈도우 폴더(C:\WINDOWS), 윈도우 시스템 폴더(C:\WINDOWS\SYSTEM)이다.
+
+레지스트리와 WIN.INI를 변경해 다음 번 부팅부터 자동 실행되도록 하며, 전체 드라이브를 뒤져 하드디스크와 네트웍 드라이브의 경우 TUNE.VBS 파일을 루트에 생성한다.
+
+VBS/Love_Letter와 같이 E-mail로 자신을 보내는 기능도 있다.
+
+제목 : Please Read
+본문 : "Hey, you really need to check out this attached file I sent you...
+please check it out as soon as possible."
+첨부파일 : ( 위의 파일중 하나 )
+
+MIRC와 PIRCH98을 사용할 경우 웜을 자동으로 퍼뜨릴 수 있는 스크립트를 해당 폴더에 생성한다. 따라서 사용자가 MIRC나 PIRCH98을 사용해 IRC를 이용할 경우 해당 채널의 다른 사람에게 웜을 퍼뜨린다.
+
+다음과 같은 문자열을 포함하고 있다.
+
+"Tune Virus By Slug"
+

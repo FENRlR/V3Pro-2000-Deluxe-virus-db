@@ -1,0 +1,54 @@
+VBS/Love_Letter.Z
+
+다른 이름 : VBS/Love_Letter.BJ, VBS/Colombia, VBS/Love_Letter.Worm
+제작지    : 외산 콜롬비아
+국내 발견 : 2000년9월
+종류      : 파일
+
+감염 증상 : 
+
+매년 9월17일이 E부터 Z 드라이브까지 네트워크 드라이브의 맵핑을 해제한다.
+
+내용      : 
+
+VBS/Love_Letter.Z는 VBS/Love_Letter.BJ, VBS/Colombia, VBS/Love_Letter.Worm 등으로 불리는 외국산 스크립트 바이러스로, 콜롬비아에서 제작된 것으로 추정된다. A형과 B형이 있으며, 국내 발견일은 A형이 9월 20일, B형이 9월 26일이다.
+
+감염된 VBS 파일을 실행하면 스크립트가 실행되고 MS 아웃룩(MS Outlook)을 이용해 아웃룩 주소록에 있는 주소로 첨부 파일이 포함된 메일을 보낸다.
+
+발송되는 메일의 제목과 내용은 다음과 같다.
+
+제목 : US PRESIDENT AND FBI SECRETS =PLEASE VISIT => (http://WWW.2600.COM)<=
+내용 : VERY JOKE..! SEE PRESIDENT AND FBI TOP SECRET PICTURES..
+첨부파일 : 임의로 만들어낸파일.확장자.VBS
+
+첨부된 VBS 파일을 실행하면, 윈도우 폴더(일반적으로 c:\windows)에 reload.vbs를, 윈도우 시스템 폴더(일반적으로 c:\windows\system)에 LINUX32.VBS 파일과 메일에 첨부되었던 임의로 만들어진 파일이 복사된다.
+
+그리고 레지스트리에 다음 두 항목을 추가하여 윈도우가 부팅 될 때마다 자동으로 실행하게 한다.
+
+'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run 항목에 
+"LINUX32 = WINDOWS\SYSTEM\LINUX32.vbs"
+
+'HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices 항목에 
+"reload = WINDOWS\reload.vbs"
+
+레지스트리 수정 후 "WINFAT32.EXE" 파일이 있는지 확인해 없는 경우 인터넷 익스플로러의 시작 페이지를 변경해서 익스플로러 실행시 다음의 파일을 가져온다.
+
+macromedia32.zip
+linux321.zip
+linux322.zip
+
+가져온 파일 중 macromedia32.zip 파일은 important_note.txt 파일로 복사한 후, 레지스트리의 다음 항목에 추가되어 부팅 때마다 실행한다.
+
+HKLM\Software\Microsoft\Windows\CurrentVersion\Run\ 항목에 "plan colombia = WINDOWS\important_note.txt"
+
+linux321.zip과 linux322.zip 파일은 logos.sys와 logow.sys로 윈도우 디렉토리에 복사되어, 종료할 때의 윈도우 로고 화면을 바꾼다. 그 다음 인터넷 익스플로러의 시작 홈 페이지를 about:blank로 변경한다.
+
+파일의 확장자가 VBS, VBE인 경우 바이러스가 겹쳐쓰기되며 JS, JSE, CSS, WSH, SCT, HTA의 경우 바이러스가 겹쳐쓰기되고 확장자가 VBS로 바뀐다. 또한 JPG, JPEG 파일은 바이러스가 겹쳐쓰기되고 VBS 확장자가 추가된다.
+
+그러나 MP3, MP2 파일은 숨김속성으로 변경되고 동일한 이름의 바이러스 파일을 생성한다. 예를 들면 love_letter.mp3 파일의 경우 love_letter.mp3 파일은 숨김속성으로 변경되고 love_letter.mp3.vbs 파일이 생성된다.
+
+매년 9월17일이 되면, 다음의 메시지창이 뜨고, E부터 Z 드라이브까지 모든 네트워크 드라이브의 맵핑을 해제한다.
+
+Dedicated to my best brother=>Christiam Julian(C.J.G.S.)
+Att. (5바이트 특정 문자열) (M.H.M. TEAM)
+

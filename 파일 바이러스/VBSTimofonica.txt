@@ -1,0 +1,46 @@
+VBS/Timofonica
+
+제작지    : 외산 스페인 2000년06월
+종류      : 파일
+
+감염 증상 : 
+
+아웃룩 주소록 웜이 첨부된 메일을 보내고, 휴대전화단말기로 메시지를 보낸다.
+
+내용      : 
+
+VBS/Timofonica는 외국산 스크립트 웜으로 2000년 6월 5일 스페인에서 처음 발견되었다. 국내엔 아직 발견되지 않았다. VBS/Love_Letter와 유사한 방법으로 전파되는 VBS(Visual Basic Script)로 작성된 웜이다. 휴대전화단말기로 문자 메시지를 보낼 수 있지만 일부 언론에 
+알려진 것처럼 휴대전화단말기 자체를 감염시키지는 않는다.
+
+감염된 VBS 파일을 실행하면 스크립트가 실행되고 MS 아웃룩 ( MS Outlook)을 이용해 아웃룩 주소록에 있는 주소로 첨부파일이 포함된 메일을 보낸다.
+
+보내지는 메일의 제목과 내용은 다음과 같다.
+
+제목 : TIMOFONICA
+내용 : 
+Es de todos ya conocido el monopolio de Telefonica pero
+ no tan conocido los metodos que utiliza para llegar
+ hasta este punto. En el documento adjunto existen
+ opiniones, pruebas y direcciones web con mas informacion
+ que demuestran irregularidades en compras de materiales,
+ facturas sin proveedores, stock irreal, etc. Tambien
+ habla de las extorsiones y favoritismos a empresarios
+ tanto nacionales como internacionales. Explica tambien
+ el por que del fracaso en Holanda y que hizo para
+ adquirir el portal Lycos. En las direcciones web del
+ documento existen temas relacionados para que echeis un
+ vistazo a los comentarios, informes, documentos, etc.
+ Como comprendereis, esto es muy importante, y os ruego
+ que reenvieis este correo a vuestros amigos y conocidos.
+
+첨부파일 :  TIMOFONICA.TXT.vbs
+
+아웃룩 주소록으로 웜이 첨부된 메일을 보내고 "correo.movistar.net" 에 임의의 숫자로 된 아래와 같은 메시지를 핸드폰으로 보낸다. 
+  ( 예 : 609123456@correo.movistar.net )
+  
+제목 : TIMOFONICA
+메시지 내용 : informa que: Telefonica te est¡ engaaando.
+
+임의로 만들어진 숫자는 전화번호로 해당번호를 사용하는 사용자에겐 메일내용이 그대로 휴대전화단말기로 문자메시지 형태로 보내지게 된다. 전화번호 자체는 임의의 수로 만들어지므로 한 사람이 여러 개의 문자메시지를 받을 확률은 적다. 하지만, 웜이 많이 퍼질 경우 과다한 
+메일로 휴대전화사업자의 서버가 다운 될 수도 있다.
+

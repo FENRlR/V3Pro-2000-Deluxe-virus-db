@@ -1,0 +1,58 @@
+VBS/Love_Letter
+
+제작지    : 외산 필리핀 2000년05월
+국내 발견 : 2000년05월
+종류      : 파일
+감염 방법 : 겹쳐쓰기형
+
+감염 증상 : 
+
+특정 확장자의 파일을 손상시킨다.
+
+내용      : 
+
+러브레터(VBS/Loveletter)는 외국산 스크립트 바이러스로, 2000년 5월 4일 처음 발견되었으며 국내에서도 같은 날 발견되었다. E-메일, IRC, HTML 문서의 액티브X 코드, 네트워크 등을 통해 유포되므로 지난해 4월 초 문제가 되었던 멜리사 바이러스가 최초 발견 3일 후 국내 
+유입되었던 것에 비해 전파 속도가 더 빠르다.
+
+이 바이러스는 'ILOVEYOU'라는 제목의 인터넷 메일로 발송되는데, 'kindly check the attached LOVELETTER coming from me.'라는 내용과 함께 첨부 파일 LOVE-LETTER-FOR-YOU.TXT.vbs이 들어있다. 이 파일을 열면 바이러스에 감염되므로 열지 말고 바로 삭제해야 
+한다. 
+
+VBS/Love_Letter가 보내는 메일의 제목은 다음과 같다.
+
+* ILOVEYOU
+* Susitikim shi vakara kavos puodukui...
+(Lithuanian오로 "Let's meet this evening for coffee" 란 뜻이라고 함).
+* fwd: Joke
+* Mothers Day Order Confirmation
+* Dangerous Virus Warning
+* Virus ALERT!!!
+* Important! Read carefully!!
+
+아웃룩이나 아웃룩 익스프레스를 사용할 경우 대량의 메일 트래픽으로 인해 메일 서버가 다운되는데, 메일 서버와 파일 서버, 웹 서버 등을 구분하지 않는 환경에서는 전체 네트워크가 마비되는 상황이 벌어진다.
+
+파일의 확장자가 VBS, VBE인 경우 바이러스가 겹쳐쓰기되며 JS, JSE, CSS, WSH, SCT, HTA의 경우 바이러스로 겹쳐쓰기되고 확장자가 VBS로 바뀐다. 또한 JPG, JPEG 파일은 바이러스가 겹쳐쓰기되고 VBS 확장자가 추가된다.
+
+그러나 MP3, MP2 파일은 숨김속성으로 변경되고 동일한 이름의 바이러스 파일을 생성한다. 예를 들면 love_letter.mp3 파일의 경우 love_letter.mp3 파일은 숨김속성으로 변경되고 love_letter.mp3.vbs 파일이 생성된다.
+
+일단 감염되어 손상된 파일은 복구가 불가능하다. 
+
+
+VBS(Visual Basic Script)로 작성되었으며 실행되면 윈도우 시스템 폴더(보통 C:\WINDOWS\SYSTEM)에 MSKernel32.vbs와 LOVE-LETTER-FOR-YOU.TXT를 복사하고 윈도우 폴더(보통 C:\WINDOWS)에 Win32DLL.vbs 등의 파일을 만든다.
+
+그리고 레지스트리에 다음 두항목을 추가하여 윈도우가 부팅될 때마다 자동으로 실행하게 한다.
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\MSKernel32
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices\Win32DLL
+
+이후, 윈도우 시스템 폴더에 WinFAT32.exe가 있는지를 확인하고, 없는 경우 4개의 인터넷 사이트 중 하나를 임의로 선택하여 Win-BUGSFIX.exe를 다운로드하며 레지스트리에 다음과 같은 항목으로 등록하여 윈도우 부팅시 계속 실행되도록 한다.
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\WIN-BUGSFIX
+
+그 다음 인터넷 익스플로러의 시작 홈 페이지를 about:blank로 변경한다.
+
+감염시킬 파일을 찾는 과정에서 MIRC32.EXE나 MLINK32.EXE MIRC.INI, SCRIPT.INI, MIRC.HLP 파일을 찾으면 그 폴더에 SCRIPT.INI(337 바이트) 파일을 생성한다. 이후 mIRC(인터넷 채팅 프로그램)로 IRC(Internet Relay Chat. 인터넷을 통해 구축된 대화방) 채팅을 할 경우 
+LOVE-LETTER-FOR-YOU.HTM을 다른 사람에게 퍼뜨린다.
+
+이 파일을 받은 사용자가 LOVE-LETTER-FOR-YOU.HTM을 익스플로러로 읽을 경우 "This HTML file need ActiveX control", "To Enable to read this HTML file - Please press YES button to Enable ActiveX"를 출력해 실행하도록 유도한다. 이때 "예"를 누르면 바이러스가 
+하드 디스크 및 네트워크로 퍼진다.
+

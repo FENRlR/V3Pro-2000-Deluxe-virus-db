@@ -1,0 +1,52 @@
+Win32/Kriz.3863
+
+다른 이름 : Win32.Kriz.3863, PE_KRIZ.3862, PE_KRIZ.3862
+제작지    : 외산 1999년08월
+국내 발견 : 1999년12월
+종류      : 파일
+기억 장소 : 상주형
+감염 위치 : EXE
+
+감염 증상 : 
+
+매년 12월 25일 하드 디스크의 내용을 파괴하고, CMOS 와 플래시 메모리의 내용을 파괴한다.
+
+내용      : 
+
+Win32/Kriz.3863 바이러스는 Win32.Kriz.3863, PE_KRIZ.3862, PE_KRIZ.3862 등으로 불리는 외국산 파일 바이러스로 PE 형(Portable Executable, Windows 95/98 실행파일) EXE 파일을 감염시킨다. 외국에서는 1999년 8월에서 발견되었으며 국내에서는 1999년 12월 22일에 
+발견되었다.
+
+감염된 파일이 실행되면 윈도우 시스템 폴더(일반적으로 C:\Windows\System)에 KRIZED.TT6 파일을 생성한다. 이 파일은 KERNEL32.DLL 파일에 바이러스가 감염된 것으로 다음 번 부팅 때 바이러스에 감염된 KRIZED.TT6 파일이 KERNEL32.DLL 파일로 대체되면서 
+바이러스는 시스템 권한을 가지게 된다.
+
+파일복사, 파일생성, 파일삭제, 파일속성 얻기/변경, 파일이동시 확장자가 4096 바이트 이상의 확장자가 EXE, SCR 인 파일을 감염시킨다
+
+단, 다음 파일은 감염에서 제외된다.
+
+_AVP32.EXE, _AVPCC.EXE, _AVPM.EXE, ALERTSVC.EXE, AMON.EXE,
+AVP32.EXE, AVPCC.EXE, AVPM.EXE, N32SCANW.EXE, NAVAPSVC.EXE,
+NAVAPW32.EXE, NAVLU32.EXE, NAVRUNR.EXE, NAW32.EXE,
+NAVWNT.EXE, NOD32.EXE, NPSSVC.EXE, NRESQ32.EXE, NSHED32.EXE
+,NSCHEDNT.EXE, NSPLUGIN.EXE, SCAN.EXE, SMSS.EXE
+
+다형성 바이러스로 감염될 때마다 다른 암호화를 사용한다. 감염된 파일은 4096 바이트 증가한다.
+
+특징적인 증상은 매년 12월 25일 감염된 파일이 실행되면 하드디스크 내용을 파괴하고 CMOS 데이터와 플래시 롬의 내용을 파괴한다.
+
+암호를 풀면 다음과 같은 문자열이 존재한다. 단, 화면에 출력되지는 않는다.
+
+"(c) T2 & Immortal Riot"
+"YOU CALL IT RELIGION, YOU'RE FULL OF SHIT
+ YOU NEVER KNEW, YOU NEVER DID, YOU NEVER WILL
+ YOU'RE SO FULL OF SHIT, I DON'T WANT TO HEAR IT
+ ALL YOU DO IS TALK ABOUT YOURSELF
+ I DON'T WANNA HEAR IT, COZ I KNOW NONE OF IT'S TRUE
+ I'M SICK AND TIRED OF ALL YOUR GODDAMN LIES
+ LIES IN THE NAME OF GOD
+ WHEN ARE YOU GOING TO REALIZE THAT I DON'T WANT TO HEAR IT?!
+ I KNOW YOU'RE SO FULL OF SHIT, SO SHUT YOUR FUCKING MOUTH
+ YOU KEEP ON TALKING, TALKING EVERYDAY
+ FIRST YOU'RE TELLING STORIES, THEN YOU'RE TELLING LIES
+ WHEN THE FUCK ARE YOU GOING TO REALIZE THAT I DON'T WANT TO HEAR IT!!
+ AH, SHUT THE FUCK UP..."
+

@@ -1,0 +1,28 @@
+VBS/Netlog
+
+다른 이름 : VBS.Network, VBS_NETLOG.WORM
+제작지    : 외산 2000년02월
+국내 발견 : 2000년03월
+종류      : 파일
+
+감염 증상 : 
+
+NETWORK.LOG에 기록을 남긴다. 네트웍으로 전파된다.
+
+내용      : 
+
+VBS/Netlog는 비주얼 베이식 스크립트(VBS:Visual Basic Script)로 작성된 웜 프로그램으로 2000년 2월 처음 발견되었다. 국내에서는 2000년 3월에 발견되었으며 VBS.Network, VBS_NETLOG.WORM 등으로 불리기도 한다.
+
+파일이 실행되면 C 드라이브 루트에 NETWORK.LOG 파일을 생성한다. 이후 임의의 IP 주소로 C 드라이브가 공유된 컴퓨터를 찾아낸 후 아래 폴더에 NETWORK.VBS 파일을 생성한다. 찾은 컴퓨터는 J 드라이브로 매핑 된다.
+
+"j:\"
+"j:\windows"
+"j:\windows\start menu\programs\startup"
+"j:\win95\start menu\programs\startup"
+"j:\win95\startm~1\programs\startup"
+"j:\wind95"
+
+하지만, 한글 윈도우는 시작 폴더가 "Start Menu"가 아닌 "시작 메뉴"이므로 영문 버전 이외의 윈도우를 사용하면 웜이 다음 부팅때 자동으로 실행되지는 않는다. 
+
+치료 방법은 NETWORK.VBS 파일을 삭제하면 된다. 단, WINDOWS\SAMPLES\WSH의 NETWORK.VBS는 정상적인 스크립트 파일이므로 삭제해서는 안된다.
+

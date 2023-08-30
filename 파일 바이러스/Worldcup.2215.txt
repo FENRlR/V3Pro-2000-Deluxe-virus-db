@@ -1,0 +1,26 @@
+Worldcup.2215
+
+제작지    : 국산
+국내 발견 : 1995년05월 한광수
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+5월 16일, 10월 27일 메시지 출력
+
+내용      : 
+
+변형으로 파일 크기가 57344 바이트 보다 작은 COM, EXE 파일을 감염시킨다. 단, 파일 중에 COMMAND.COM, PCTOOLS.EXE, EMM385.EXE, NE.EXE 파일은 감염시키지 않는다. 감염된 COM 파일 크기는 2215 바이트, EXE 파일은 2315 - 2330 바이트 늘어난다. 
+
+감염된 후 특징적인 증상은 감염 파일이 매년 5월 16일, 10월 27일 또는 일/월요일 5시 16분, 10시 27분, 22시 27분에 실행되면 다음과 같은 문자열이 화면에 출력된다.
+
+"Rage against corrupt society....
+ We must be convinced of our own error..
+ for the sake of our future and true Freedom !!!
+ (*Especially* the older generation and the government)..
+ This virus doesn't destroy your computer...
+ - Kim Joong geun (UnistS)."
+

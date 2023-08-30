@@ -1,0 +1,72 @@
+VBS/Stages
+
+제작지    : 외산 2000년05월
+국내 발견 : 2000년06월
+종류      : 파일
+
+내용      : 
+
+VBS/Stages는 외국산 웜으로 2000년 5월 30일 처음 발견되었다. 6월 중순부터 퍼지기 시작했으며 국내에도 2000년 6월 20일 국내에도 발견되었다.
+
+메일로 첨부된 파일을 더블클릭하면 실행하면 아래와 같은 내용이 출력되고 웜이 실행된다.
+
+- The male stages of life:
+
+Age. Seduction lines.
+17 My parents are away for the weekend.
+25 My girlfriend is away for the weekend.
+35 My fiancee is away for the weekend.
+48 My wife is away for the weekend.
+66 My second wife is dead.
+
+Age. Favorite sport.
+17 Sex.
+25 Sex.
+35 Sex.
+48 Sex.
+66 Napping.
+
+Age. Definiton of a successful date.
+17 Tongue.
+25 Breakfast.
+35 She didn't set back my therapy.
+48 I didn't have to meet her kids.
+66 Got home alive.
+
+- The female stages of life:
+
+Age. Favourite fantasy.
+17 Tall, dark and hansome.
+25 Tall, dark and hansome with money.
+35 Tall, dark and hansome with money and a brain.
+48 A man with hair.
+66 A man.
+
+Age. Ideal date.
+17 He offers to pay.
+25 He pays.
+35 He cooks breakfast next morning.
+48 He cooks breakfast next morning for the kids.
+66 He can chew his breakfast.
+
+웜이 실행되면 네트워크 드라이브, MS아욱룩, mIRC등을 통하여 전파된다.
+
+MS 아웃룩(MS Outlook)의 경우 아웃룩 주소록에 있는 주소로 첨부파일이 포함된 메일을 보낸다. 메일을 통해 전파될 때, 이 메일의 제목을 무작위로 바꾸는데, 지금까지 알려진 제목과 내용은 다음과 같다.
+
+제목 : 
+
+"Fw: Life Stages" , "Fw: Funny", "Fw: Jokes", "Fw: Life Stages text",
+"Fw: Funny text", "Fw: Jokes text", "Life Stages", "Funny", "Jokes",
+"Life Stages text", "Funny text", "Jokes text"
+
+내용 : "The male and female stages of life." 
+첨부 파일 : LIFE_STAGES.TXT.SHS ( 39936 바이트의 Shell Scrap Object 파일 )
+
+로컬이나 네트워크로 연결된 드라이브에 자신을 직접 복사하기도 한다. 
+
+mIRC나 PIRCH (인터넷 채팅 프로그램)이 설치된 폴더에 스크립트 파일을 만든다. 이후 mIRC나 PIRCH로 IRC(Internet Relay Chat. 인터넷을 통해 구축된 대화방) 채팅을 할 때 같은 방 있는 다른 사람들에게 감염된 파일을 자동으로 전송한다.
+
+특징적인 증상은 REGEDIT.EXE 파일을 휴지통 폴더로 옮기고 이름을 RECYCLED.VXD 로 바꾸는 것이다. 따라서 레지스트리 에디터등의 사용에 있어 문제가 발생할 수 있다.
+
+컴퓨터에 심각한 피해를 주는 증상은 없지만 사내 컴퓨터가 웜에 많이 감염될 때 메일 서버에 과부하를 야기하여 업무에 지장을 줄 수 있다.
+

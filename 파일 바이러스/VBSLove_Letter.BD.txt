@@ -1,0 +1,47 @@
+VBS/Love_Letter.BD
+
+다른 이름 : VBS/Contract, VBS_LOVELETTR.BD, VBS.LoveLetter.BD
+제작지    : 외산 2000년08월
+종류      : 파일
+
+내용      : 
+
+VBS/Love_Letter.BD는 VBS/Contract, VBS_LOVELETTR.BD, VBS.LoveLetter.BD 등으로 불리는 외국산 스크립트 웜으로 2000년 8월 15일에 발견되었다. 국내에는 아직 발견되지 않았다.
+
+감염된 VBS 파일을 실행하면 스크립트가 실행되고 MS 아웃룩(MS Outlook)을 이용해 아웃룩 주소록에 있는 주소로 첨부파일이 포함된 메일을 보낸다.
+
+보내지는 메일의 제목과 내용은 다음과 같다.
+
+  제목 : Resume
+  내용 : 없음
+  첨부파일 : resume.txt.vbs
+
+VBS 파일이 실행되면 메모장에 아래와 같은 내용이 출력된다
+
+"Knowledge Engineer, Z?ich 
+
+ Intelligente Agenten im Internet sammeln Informationen, 
+ erkl?en Sachverhalte im Customer Service, navigieren im Web, 
+ beantworten Email Anfragen oder verkaufen Produkte. 
+ Unsere Mandantin entwickelt und vermarktet solche 
+ Software-Bots: State of the Art des modernen E-Commerce. 
+ Auftraggeber sind f?rende Unternehmen, die besonderen Wert 
+ auf ein effizientes Customer Care Management legen. 
+ Das weltweit aktive, NASDAQ kotierte Unternehmen mit Sitz 
+ in Boston braucht zur Verst?kung seines explosiv wachsenden 
+ Teams in der Schweiz engagierte, hochmotivierte und kreative 
+ Spezialisten. Kurz: Sie haben es in der Hand, die Knowledge 
+ Facts f? aussergew?nliche L?ungen im Internet zu realisieren 
+ und neue Schnittstellen zwischen Mensch und Datenautobahnen 
+ zu schaffen. Das Tor zur Welt steht Ihnen offen. 
+ Eine faszinierende Zukunft braucht Ihre Inspiration und 
+ Ihr Know-how.... "
+
+                  ( 생 략 )
+                                                                          
+윈도우 시스템 폴더 (일반적으로 C:\Windows\System)에 RESUME.TXT.VBS 파일이 생성된다.
+
+웜은 FTP 사이트에서 해킹 프로그램을 다운로드를 시도한다. 이 프로그램은 스위스의 UBS 은행의 온라인 뱅킹 소프트웨어가 설치되어 있을 때 사용자 정보를 빼 갈 수 있다. 하지만, 현재 이들 FTP에선 해킹 프로그램을 찾을 수 없다.
+
+원형의 VBS/Love_Letter와는 달리 파일을 파괴하거나 mIRC용 웜을 설치하는 등의 증상은 없다.
+

@@ -1,0 +1,20 @@
+Trivial.119
+
+제작지    : 국산
+국내 발견 : 1997년08월 조춘구
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COMMAND.COM, COM
+
+내용      : 
+
+감염된 후 별다른 특징은 없으나 겹쳐쓰기형 바이러스이므로 감염 파일은 실행되지 않으며, 정상적으로 치료했다고 해도 역시 실행되지 않는다. 감염 파일이 실행되면 현재 디렉토리에 있는 모든 COM 파일을 감염시키며, 파일의 2번째 바이트가 'b'인 파일은 감염에서 제외된다. 
+
+
+읽기전용속성 파일은 감염되지 않으며, 감염 파일의 작성 날짜가 변경된다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"I can see you System, a again.... What is interesting!.
+ Here is ViRUvTiVe World! YOU! Here is only you now!
+ What is Great! Ahhh! This virus name is Going_North Virus"
+

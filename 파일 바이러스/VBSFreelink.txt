@@ -1,0 +1,36 @@
+VBS/Freelink
+
+다른 이름 : VBS.FreeLink
+제작지    : 외산 아르헨티나 1999년07월
+국내 발견 : 1999년09월
+종류      : 파일
+
+감염 증상 : 
+
+indows 98 이상에서만 감염된다. 네트웍으로 퍼질 수 있다. 감염 이외의 특별한 증상은 없음
+
+내용      : 
+
+VBS/Freelink는 외국산 웜으로 1999년 7월 발견되었다. 이 웜의 제작자는 VBS/Bubbleboy로 유명한 아르헨티나에 사는 자칭 Zulu로 알려져 있다.
+
+국내에선 1999년 9월 최초로 발견되었다. V3 제품군에선 1999년 8월 이후 엔진으로 진단 및 치료가 가능하다.
+
+이 웜은 VBS(Visual Basic Script) 언어로 작성되었다. VBS는 윈도우 98 이상에서 실행된다.
+
+첨부된 파일을 실행하면 윈도우 시스템 폴더(보통 C:\WINDOWS\SYSTEM)에 RUNDLL.VBS 파일이 생기고 레지스트리를 변경시켜 다음 부팅때 부터 항상 웜이 실행되도록 한 후 다음과 같은 메시지 박스를 출력한다.
+
+"This will add a shorcut to free XXX links on your desktop.
+ Do you want to continue ?"
+
+다음과 같은 내용의 메일을 MS Outlook을 이용해 다른 사람에게 보낸다.
+
+제목 : Check this
+내용 : Have fun with these links. 
+첨부파일 : LINKS.VBS
+
+네트웍이 연결되어 있으면 네트웍 드라이브의 루트에 LINKS.VBS를 생성한다. 또한 mIRC나 PIRCH IRC 프로그램이 설치되어 있으면 웜이 IRC로 퍼질 수 있게 SCRIPT.INI나 EVENTS.INI를 생성한다.
+
+1999년 12월 8일 변형인 VBS/Freelink.D가 추가로 발견되었으며 증상 등은 내용은 원형과 동일하다.
+
+V3 제품군은 VBS/Freelink 원형과 B, C, D 변형을 모두 진단, 치료할 수 있다.
+

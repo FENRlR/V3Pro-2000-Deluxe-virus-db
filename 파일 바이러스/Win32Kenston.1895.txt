@@ -1,0 +1,29 @@
+Win32/Kenston.1895
+
+다른 이름 : Win32.Kenston.1895
+제작지    : 외산 1998년12월
+국내 발견 : 1999년03월
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 기생형
+암호 방식 : 암호화
+감염 위치 : EXE
+
+내용      : 
+
+윈도우용 PE 파일(EXE)만을 감염시키는 윈도우 전용 바이러스로 감염된 파일이 실행되면 현재 드라이브의 폴더를 찾아 파일을 감염시키며, 이후 프로그램이 실행 시간이 늦어질 수 있다. 
+
+윈도우 95/윈도우 NT 모두 감염 활동을 할 수 있지만 자체적인 버그로 인해 윈도우 NT에서는 불완전하게 동작하는 것으로 알려져 있다.
+
+암호화 바이러스로 코드의 대부분을 암호화시키며, 해당 암호를 풀어보면 다음과 같은 문자열이 포함되어 있는 것을 볼 수 있다.
+
+"Boles and Manning are arrogant facists. They have no computer
+ sk1llz and KENSTON HIGH SCHOOL's computers are 0wn3d.
+ I AM BACK KOONS YOU MOTHERFUCKER dowN wiTh KenSTON.....
+ yOU tRIED tO rID yOUrSELf oF mE BefoREbUT fAILED
+ HAHAHAHAHAHAHAHAHAHAHAHAHAHAHA
+
+ LoadLibraryA GetProcAddress FindFirstFileA FindNextFileA FindClose
+ SetFileAttributesA SetFileTime CreateFileA ReadFile WriteFile
+ SetFilePointer CloseHandle SetCurrentDirectoryA GetCurrentDirectoryA"
+
