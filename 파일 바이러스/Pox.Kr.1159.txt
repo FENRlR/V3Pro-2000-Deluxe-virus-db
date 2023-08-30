@@ -1,0 +1,26 @@
+Pox.Kr.1159
+
+다른 이름 : Pox.PMH.1159.B, Pox.1159.B
+제작지    : 국산
+국내 발견 : 1996년06월 김호균
+종류      : 파일
+기억 장소 : 상주형(은폐기법 사용)
+감염 방법 : 기생형
+암호 방식 : 암호화
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+매월 24일 웜 부팅시 하드 디스크 포맷
+
+내용      : 
+
+감염된 COM, EXE 파일 크기는 1159 바이트 늘어나는 은폐형 바이러스로 'V3', 'TV', 'SCAN', 'F-PROT'는 감염에서 제외된다. 
+
+감염된 후 특징적인 증상은 매월 24일 웜 부팅하면 하드 디스크를 포맷한 다음 시스템을 재부팅한다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"Before long I leave this society...and go to New...
+ I am so sad...I would not like to......But Must..
+ To make me progressive I would go..
+ >>>>>>>>>> (c)Copyright 1996 PMH<<<<<<<<<<< N/E/X/T."
+

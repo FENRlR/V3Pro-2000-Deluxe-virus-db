@@ -1,0 +1,27 @@
+Suicidal.843
+
+제작지    : 외산
+국내 발견 : 1997년04월 유병국
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM
+
+감염 증상 : 
+
+매년 10월 15일 디스크 데이터를 파괴한 후 메시지 출력, ZIP 파일 삭제
+
+내용      : 
+
+COM 파일만 감염되며, 감염된 파일의 크기는 843 바이트 늘어난다. 감염 파일이 실행되면 현재 디렉토리부터 루트디렉토리까지 이동하면서 확장자가 COM인 파일을 한번에 5개까지 감염시키고 해당 디렉토리에 있는 ZIP 파일과 ANTI-VIR.DAT 파일을 삭제한다. 
+
+읽기전용속성 파일도 감염시키며, 감염 파일의 날짜와 파일속성은 변하지 않는다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"[TU.Suicidal.Dream.B] (c) 1996 The Freak/The Underground
+ From the hypnotic spectre of wake I scream
+ Locked in the depths of a Suicidal Dream..."
+
+또한. 매년 10월 15일이면 현재 드라이브의 데이터를 삭제하며, 다음과 같은 메시지를 출력하고 시스템을 정지시킨다.
+
+"Happy Birthday Freaky!"
+

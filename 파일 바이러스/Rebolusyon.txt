@@ -1,0 +1,40 @@
+Rebolusyon
+
+다른 이름 : Quark, _2000, Junely
+제작지    : 외산 필리핀
+국내 발견 : 1996년01월 김용락
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+암호 방식 : 암호화
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+필리핀 국기를 펄럭이면서 글자 출력
+
+내용      : 
+
+감염 파일이 실행되면 바이러스는 기억장소의 최상위 영역에 상주한다. 확장자가 COM, EXE 파일만 감염시키므로 오버레이 파일은 감염시키지 않으며, 파일 열기나 실행되는 파일을 감염시킨다. 쓰기방지탭이 붙은 플로피 디스크의 파일의 경우 쓰기 에러가 발생한다. 
+
+읽기전용속성 파일도 감염시킬 수 있으며, 감염 파일속성, 시간은 변하지 않는다. 감염 파일은 2000 바이트 늘어난다. 암호화 기법을 사용한다. 
+
+감염된 후 특징적인 증상은 화면에 필리핀 국기가 펄럭이면서 다음과 같은 여러 가지 메시지가 출력된다.
+
+"Sagot sa kahirapan...
+ REBOLUSYON!
+ Mabuhay ang...
+ CPP-NPA-NDF!
+ MAMUNO, mga manggaggawa
+ LUMABAN, mga magsasaka
+ MAKIISA, mga patriyotiko
+ Isulong ang MAPAGPALAYANG KILUSAN!
+ Kabataang Makabayan (KM)
+ Makabayang Kilusan ng Bagong Ka
+ Makabayang Kilusan ng Bagong Kababaihan (MAKIBAKA)
+ Artista at Manunulat ng Sambayanan (ARMAS)
+ KAtipunan ng mga Gurong Makabayan (KAGUMA)
+ Liga ng Agham para sa Batan (LAB)
+ E.Bukid [KK]
+ Ang Bagong Demokratikong Rebolusyon."
+

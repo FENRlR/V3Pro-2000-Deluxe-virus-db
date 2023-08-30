@@ -1,0 +1,25 @@
+Pox.Kr.1117
+
+제작지    : 국산
+국내 발견 : 1997년09월 변형열
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+매월 18일 부팅시 하드 디스크 포맷
+
+내용      : 
+
+감염된 COM, EXE 파일 크기는 1117 바이트 늘어나는 은폐형 바이러스이다. 파일 이름이 'V3', 'TV', 'SC', 'ES', 'PR' 등의 이름으로 시작되는 파일은 감염에서 제외된다.
+
+감염된 후 특징적인 증상은 매월 18일 부팅하면 하드 디스크를 포맷한다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"SMARTAR
+ ComeBack_III (c) Copyright 1996 Park MinHark.
+ ComeBackComeBackComeBackComeBack
+ This is the last version of modified POX
+ Good By Every.... Hu Hu"
+

@@ -1,0 +1,27 @@
+Skism.808
+
+다른 이름 : Leprosy.Skism.808.A, Rythem, 808, Leprosy.808
+제작지    : 외산 미국
+종류      : 파일
+기억 장소 : 비상주형
+감염 방법 : 겹쳐쓰기형
+암호 방식 : 암호화
+감염 위치 : EXE
+
+감염 증상 : 
+
+25일 이후 금요일에 현재 디렉토리의 모든 파일 삭제
+
+내용      : 
+
+문둥이 바이러스의 변형으로 EXE 파일을 감염시키며, 감염 파일을 실행하면 루트디렉토리로 이동한 후 바로 서브디렉토리를 찾아서 EXE 파일을 감염시킨다.
+
+EXE 파일의 첫 808 바이트를 겹쳐 쓰는데 파일 크기가 808 바이트 이하인 파일은 항상 808 바이트가 되고 808 바이트 보다 큰 파일은 크기의 변화가 없다. 읽기전용속성 파일도 감염시킬 수 있으며, 감염 파일의 파일 작성 시간도 변하지 않는다.
+
+감염된 후 특징적인 증상은 25일 이후의 금요일에 현재 디렉토리의 모든 파일을 삭제한다. 암호화 바이러스로 암호를 풀어보면 다음과 같은 문자열이 포함되어 있다.
+
+"Skism Rythem Stack Virus-808. Smart Kids Into Sick Methods
+ Dont alter this code into your own strain, faggit.
+ HR/SSS NYCity, this is the fifth of many, many more....
+ You sissys....."
+

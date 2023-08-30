@@ -1,0 +1,37 @@
+Sebal
+
+다른 이름 : IMI
+제작지    : 국산
+국내 발견 : 1995년02월
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : EXE
+
+감염 증상 : 
+
+UMB 값을 0으로 만듦, 메시지 출력
+
+내용      : 
+
+1995년 2월 천리안 공개 자료실에 등록되어 있었던 '글나기 2.0'이라는 프로그램에서 처음 발견된 한국산 바이러스로 감염 파일이 실행되면 기본 메모리에 상주하며, UMB 값을 0으로 만든 다음 이후 실행되는 EXE 파일을 감염시킨다. 
+
+감염된 파일의 크기는 1614 바이트 늘어나는데 기억장소에 상주하면서 인터럽트 벡터 테이블의 특정 값을 변형시키기 때문에 간혹 시스템이 정지되는 수도 있다.
+
+감염된 후 특징적인 증상은 첫째, 글자를 떨어뜨린다. 이런 증상은 폭포(Cascade) 바이러스와 유사하지만 글자가 떨어지는 속도가 상당히 느린 편이며, 박스 문자는 떨어지지 않는다. 둘째, 감염 파일을 삭제하는데 최초 감염 이후 9번째 실행되는 파일은 다음과 같은 메시지가 
+출력된다.
+
+"<WARNing> IF you execute this file again,
+ I will crush it. REMEBER!!!"
+
+만약 사용자가 이를 무시하고 감염 파일을 실행하면 해당 파일을 삭제하고 다음과 같은 메시지가 출력된다.
+
+"Sorry kid.
+ You-how dare-brushed off my warning. 
+ As I warned, I deleted this file Though you recover
+ the file,it will be deleted soon again.
+ Do you know who I am?
+ EVERYONE CALLS ME MOST POWERFUL VIRUS
+ THE GLORIOUS NAME IS ...
+ ###   S  E  B  A  L   ###"
+

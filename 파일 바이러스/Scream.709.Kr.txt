@@ -1,0 +1,17 @@
+Scream.709.Kr
+
+다른 이름 : Stranger.Kr, Korea_Stranger.709, Fist.709, Korea-Stranger.707
+제작지    : 국산
+국내 발견 : 1994년04월 양승룡
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM, EXE
+
+내용      : 
+
+변형 바이러스로 1995년에는 외국에서도 발견되었다. 25000 - 64000 바이트 사이의 COM 파일과 26000 바이트 이상의 EXE 파일을 감염시킨다. 감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"I am a Stranger in KOREA ...
+ C:\COMMAND.COM"
+

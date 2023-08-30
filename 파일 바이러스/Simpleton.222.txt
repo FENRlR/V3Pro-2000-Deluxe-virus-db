@@ -1,0 +1,23 @@
+Simpleton.222
+
+제작지    : 국산
+국내 발견 : 1998년05월 장홍재
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 겹쳐쓰기형
+감염 위치 : COMMAND.COM, COM, EXE
+
+감염 증상 : 
+
+감염 파일 실행시 "Abnormal Program Termination" 라는 메시지 출력
+
+내용      : 
+
+얼간이.222 바이러스는 1998년 5월 발견된 한국산 파일 바이러스이다. 감염 파일을 실행하게 되면 기억장소에 상주하여 실행되는 COM, EXE 파일을 222 바이트 겹쳐 쓰기 때문에 감염 파일은 손상된다. 따라서 감염 파일은 복구할 수 없으면 실행될 때 "Abnormal Program 
+Termination" 라고 출력된다.
+
+다음과 같은 문자열이 포함되어 있다.
+
+"[Simpleton]My first virus  by Corean_Boy / CVC 1998.04"
+"Abnormal Program Termination"
+

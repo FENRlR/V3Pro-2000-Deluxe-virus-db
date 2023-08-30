@@ -1,0 +1,38 @@
+Spanska.4250
+
+다른 이름 : Elvira
+제작지    : 외산 스페인
+국내 발견 : 1997년09월 이숙자
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+암호 방식 : 암호화(다형성기법 사용)
+감염 위치 : COM, EXE
+
+감염 증상 : 
+
+그래픽 화면 출력
+
+내용      : 
+
+1997년 9월에 인터넷 뉴스그룹을 통해 미국과 캐나다에 널리 확산된 다형성 암호화 바이러스이다. 감염된 파일의 크기를 감염 전 크기로 보여주는 은폐 기능이 있으며, COM 파일의 경우는 500 - 56000 바이트인 파일만 감염시킨다.
+
+단, COMMAND.COM 파일과 파일 이름이 "TB, VI, AV, NA, VS, FI, F-, FV, IV, DR, SC, GU, CO" 로 시작하는 파일은 감염에서 제외되며, "PK, AR, RA, LH, BA"로 시작하는 프로그램 실행시 은폐기능이 정지하여 압축이나 백업시 에러가 나지 않도록 한다.
+
+감염된 프로그램이 매시 30분, 16초 이하일 때 실행되면 다음과 같은 메시지가 화면 밑에서 중앙으로 스크롤되면서 출력된다.
+
+          "ELVIRA !
+      Black and White Girl
+          from Paris
+     You make me feel alive.
+
+          ELVIRA !
+     Pars. Reviens. Respire.
+         Puis repars.
+      J'aime ton mouvement.
+
+          ELVIRA !
+    Bruja con ojos verdes
+    Eres un grito de vida,
+     un canto de libertad."
+
