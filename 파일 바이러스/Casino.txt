@@ -1,0 +1,44 @@
+Casino
+
+제작지    : 외산 몰타공화국 1991년04월
+국내 발견 : 1998년06월 엄소영
+종류      : 파일
+기억 장소 : 상주형
+감염 방법 : 기생형
+감염 위치 : COMMAND.COM, COM
+
+감염 증상 : 
+
+매년 1월, 4월, 8월 15일 카지노 게임을 해서 지면 하드 디스크의 데이터를 파괴한다.
+
+내용      : 
+
+카지노 바이러스는 외국산 파일 바이러스로 1991년 4월 몰타공화국에서 발견되었다.
+감염된 파일이 실행되면 COMMAND.COM 파일을 먼저 감염시키고 기억장소에 상주한다. 단, 윈도우 95나 98에 있는 COMMAND.COM 파일은 바이러스에 감염되면 파일이 파괴된다.
+
+기억장소에 상주한 후 디스크 용량 얻기 기능을 사용할 때마다 파일을 감염시킨다. 즉, DIR 명령만으로도 현재 디렉토리의 COM 파일을 감염시킬 수 있다.
+
+감염된 후 특징적인 증상은 1월, 4월, 8월 15일에 카지노 게임을 하는 것이다. 이때 바이러스는 사용자의 FAT을 파괴시킨 후 카지노 게임을 하게 되는데 만약 사용자가 이기면 파괴된 FAT를 원상태로 복구시켜준다. 
+
+DISK DESTROYER   A SOUVENIR OF MALTA
+I have just DESTROYED the FAT on your Disk !!
+However, I have a copy in RAM, and I'm giving you a last chance to restore your precious data.
+WARNING: IF YOU RESET NOW, ALL YOUR DATA WILL BE LOST - FOREVER !!
+Your Data depends on a game of JACKPOT
+
+CASINO DE MALTE JACKPOT
+
+*	*	*
+
+CREDITS : 5
+
+*** = Your Disk ???  = My Phone No. 
+ANT KEY TO PLAY			
+
+(참고 : 그림 문자는 *로 대처했음)
+
+감염 파일 내부에는 다음과 같은 문자열이 포함되어 있다.
+
+"BASTARD ! You're lucky this time - but for your own sake, now SWITCH OFF YOUR COMPUTER AND DON'T TURN IT ON TILL TOMORROW !!! No Fuckin` Chance; and I`m punishing you for trying to trace me down ! HA HA !! You asshole, you`ve lost: say Bye 
+to your Balls ..."
+
